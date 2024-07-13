@@ -3,7 +3,7 @@ const Mongoose = require('mongoose');
 // if the connection fails, try 127.0.0.1 instead of localhost below
 
 const uri = process.env.DB_URI || 
-"mongodb://localhost/miniProjectThree";
+"mongodb://localhost/capstone";
 
 // Connect to MongoDB
 Mongoose.connect(uri)
@@ -18,4 +18,4 @@ db.on("error", console.error.bind(console, "MongoDB connection error:"));
 
 exports.Mongoose = Mongoose;
 
-   //commit
+

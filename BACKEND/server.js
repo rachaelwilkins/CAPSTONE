@@ -7,13 +7,15 @@ let dbConnect = require("./dbConnect")
 app.use(express.json());
 
 app.get("/", (req, res) => {
- res.json({ message: "Welcome to my third Mini Project." });
+ res.json({ message: "Welcome to my Capstone Project." });
 });
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
-let userRoutes = require('./Routes/userRoutes');
-app.use('/api/users', userRoutes);
+let sneakerRoutes = require('./Routes/sneakerRoutes');
+app.use('/api/sneakers', sneakerRoutes);
+let inventoryRoutes = require('./Routes/inventoryRoutes');
+app.use('/api/inventorys', inventoryRoutes);
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}.`);

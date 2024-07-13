@@ -1,6 +1,5 @@
 'use strict'
 module.exports = {
- User: require('./user')
+Sneaker: require('./sneaker'),
+Inventory: require('./inventory')
 };
-
-   //commit

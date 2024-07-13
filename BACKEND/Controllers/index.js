@@ -1,7 +1,7 @@
 module.exports = {
-    userController: require('./userController'),
-    initialController: require('./initialController')
+    sneakerController: require('./sneakerController'),
+    initialController: require('./initialController'),
+    inventoryController: require('./inventoryController')
    }
 
-   //commit
    

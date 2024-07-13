@@ -5,7 +5,7 @@ let axios = require("axios");
 const initEpisodes = async (req, res) => {
     let episodes; 
     await axios.get(
-        `https://api.sampleapis.com/simpsons/episodes` 
+        `http://localhost:3000/sneakers` 
       ).then((response) => {  
         episodes=response.data;
       })
@@ -13,8 +13,7 @@ const initEpisodes = async (req, res) => {
         let episode of episodes 
 
       ){
-            console.log(episode)
-            new Models.User(episode).save()
+            new Models.Sneaker(episode).save()
                .then(data => res.send({result: 200, data: data}))
                .catch(err => {
                    console.log(err);
