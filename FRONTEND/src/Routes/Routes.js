@@ -1,11 +1,9 @@
 import React, { } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Home from '../pages/Home';
-import GameDetails from '../pages/GameDetails';
-import Games from '../pages/Games';
+import SneakerDetailsDetails from '../pages/GameDetails';
 import CartDetails from '../pages/CartDetails';
 import SearchPage from '../pages/SearchPage';
-import LoginSignUp from '../components/LoginSignUp';
+import LoginSignUp from '../Pages/LoginSignUp';
 import { Login } from '@mui/icons-material';
 
 export const AppRoutes = (props) => {
