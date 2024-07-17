@@ -14,6 +14,16 @@
   }
   ```
 */
+
+function getSneakers() {
+  fetch(`https://api.thecatapi.com/v1/breeds`)
+      .then(res => res.json())
+      .then(json => {
+      getSneakers=json;    
+      populateCards(json);
+      });
+}
+
   export default function BoysSneakers() {
     return (
       <div className="bg-white">
