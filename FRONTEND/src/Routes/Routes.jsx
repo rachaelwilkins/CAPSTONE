@@ -7,7 +7,7 @@ import BoysSneakers from '../Pages/Boys'
 import GirlsSneakers from '../Pages/Girls'
 import Blog from '../Pages/Blog'
 import LogInPage from '../Pages/LoginSignUp';
-//import CartDetails from '../pages/CartDetails';
+import CartPage from '../Pages/Cart'
 
 export const AppRoutes = (props) => {
   return (
@@ -20,7 +20,7 @@ export const AppRoutes = (props) => {
       <Route exact path="/girls" element={<GirlsSneakers {...props} />} />
       <Route exact path="/blog" element={<Blog {...props} />} />
       <Route exact path="/login" element={<LogInPage {...props} />} />
-      <Route exact path="/cart" element={<CartDetails {...props} />} />
+      <Route exact path="/cart" element={<CartPage {...props} />} />
     </Routes>
   )
 }
