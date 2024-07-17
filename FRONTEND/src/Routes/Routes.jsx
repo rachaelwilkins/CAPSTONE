@@ -7,7 +7,7 @@ import BoysSneakers from '../Pages/Boys'
 import GirlsSneakers from '../Pages/Girls'
 import Blog from '../Pages/Blog'
 import LogInPage from '../Pages/LoginSignUp';
-import CartDetails from '../pages/CartDetails';
+//import CartDetails from '../pages/CartDetails';
 
 export const AppRoutes = (props) => {
   return (
@@ -24,3 +24,5 @@ export const AppRoutes = (props) => {
     </Routes>
   )
 }
+
+export default AppRoutes;
