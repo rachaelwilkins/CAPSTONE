@@ -1,12 +1,15 @@
-import { useState } from 'react'
+import React from 'react'
 import './App.css'
+import AppRoutes from './Routes/Routes'
+import ButtonAppBar from './Components/NavBar'
 
 function App() {
 
   return (
     <>
       <h1>whitesneakerhub.</h1>
-      <h3></h3>
+      <AppRoutes/>
+      <ButtonAppBar/>
     </>
   )
 }
