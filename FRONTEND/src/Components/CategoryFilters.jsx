@@ -7,7 +7,7 @@
     // ...
     plugins: [
       // ...
-      require('@tailwindcss/forms') LOADED
+      require('@tailwindcss/forms'),
     ],
   }
   ```
@@ -37,31 +37,29 @@ const sortOptions = [
   { name: 'Price: Low to High', href: '#', current: false },
   { name: 'Price: High to Low', href: '#', current: false },
 ]
+const subCategories = [
+  { name: 'Totes', href: '#' },
+  { name: 'Backpacks', href: '#' },
+  { name: 'Travel Bags', href: '#' },
+  { name: 'Hip Bags', href: '#' },
+  { name: 'Laptop Sleeves', href: '#' },
+]
 const filters = [
   {
-    id: 'material',
-    name: 'material',
+    id: 'color',
+    name: 'Color',
     options: [
-      { value: 'leather', label: 'leather', checked: false },
-      { value: 'synthetic', label: 'synthetic', checked: false },
-      { value: 'canvas', label: 'Blue', checked: true },
+      { value: 'white', label: 'White', checked: false },
+      { value: 'beige', label: 'Beige', checked: false },
+      { value: 'blue', label: 'Blue', checked: true },
+      { value: 'brown', label: 'Brown', checked: false },
+      { value: 'green', label: 'Green', checked: false },
+      { value: 'purple', label: 'Purple', checked: false },
     ],
   },
   {
-    id: 'heel size',
-    name: 'heel size',
-    options: [
-      { value: '2l', label: '2L', checked: false },
-      { value: '6l', label: '6L', checked: false },
-      { value: '12l', label: '12L', checked: false },
-      { value: '18l', label: '18L', checked: false },
-      { value: '20l', label: '20L', checked: false },
-      { value: '40l', label: '40L', checked: true },
-    ],
-  },
-  {
-    id: 'cut',
-    name: 'cut',
+    id: 'category',
+    name: 'Category',
     options: [
       { value: 'new-arrivals', label: 'New Arrivals', checked: false },
       { value: 'sale', label: 'Sale', checked: false },
@@ -71,7 +69,7 @@ const filters = [
     ],
   },
   {
-    id: 'size', //add in price, rating etc
+    id: 'size',
     name: 'Size',
     options: [
       { value: '2l', label: '2L', checked: false },
@@ -88,7 +86,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function CatFilters() {
+export default function Example() {
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
 
   return (
@@ -276,7 +274,7 @@ export default function CatFilters() {
               </form>
 
               {/* Product grid */}
-              <div className="lg:col-span-3">{/* Your content */}</div>
+              <div className="lg:col-span-3">hello</div>
             </div>
           </section>
         </main>
