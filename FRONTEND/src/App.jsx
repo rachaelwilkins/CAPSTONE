@@ -1,8 +1,7 @@
 import React from 'react'
 import './App.css'
 import AppRoutes from './Routes/Routes'
-import ButtonAppBar from './Components/NavBar'
-import BoysSneakers from './Pages/Boys'
+// import DrawerAppBar from './Components/ShoeDraw'
 
 function App() {
 
@@ -11,7 +10,7 @@ function App() {
       <h1>whitesneakerhub.</h1>
       <AppRoutes/>
       <ButtonAppBar/>
-      <BoysSneakers/> 
+      {/* <DrawerAppBar/> */}
     </>
   )
 }
