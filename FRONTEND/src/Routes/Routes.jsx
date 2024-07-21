@@ -6,22 +6,23 @@ import WomensSneakers from '../Pages/Women';
 import BoysSneakers from '../Pages/Boys'
 import GirlsSneakers from '../Pages/Girls'
 import Blog from '../Pages/Blog'
-import LogInPage from '../Pages/LoginSignUp';
+import LogInPage from '../Pages/Login';
 import CartPage from '../Pages/Cart'
 
-export const AppRoutes = (props) => {
+function AppRoutes() {
   return (
-
+    <div>
     <Routes>
-      <Route exact path="/sneakers/:id/" element={<SneakerDetails {...props} />} />
-      <Route exact path="/men" element={<MensSneakers {...props} />} />
-      <Route exact path="/women" element={<WomensSneakers {...props} />} />
-      <Route exact path="/boys" element={<BoysSneakers {...props} />} />
-      <Route exact path="/girls" element={<GirlsSneakers {...props} />} />
-      <Route exact path="/blog" element={<Blog {...props} />} />
-      <Route exact path="/login" element={<LogInPage {...props} />} />
-      <Route exact path="/cart" element={<CartPage {...props} />} />
+      <Route exact path="/sneakers/:id/" element={<SneakerDetails/} />
+      <Route exact path="/men" element={<MensSneakers/} />
+      <Route exact path="/women" element={<WomensSneakers/} />
+      <Route exact path="/boys" element={<BoysSneakers/} />
+      <Route exact path="/girls" element={<GirlsSneakers/} />
+      <Route exact path="/blog" element={<Blog/} />
+      <Route exact path="/login" element={<LogInPage/} />
+      <Route exact path="/cart" element={<CartPage/} />
     </Routes>
+    </div>
   )
 }
 

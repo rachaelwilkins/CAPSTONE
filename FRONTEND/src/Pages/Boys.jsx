@@ -1,5 +1,3 @@
-//TO DO: PULL IN BOYS SHOE DATA
-
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Grid } from "@mui/material";

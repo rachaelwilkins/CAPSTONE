@@ -14,8 +14,7 @@
     },
     plugins: [
       // ...
-      require('@tailwindcss/aspect-ratio') LOADED
-    ],
+      require('@tailwindcss/aspect-ratio') LOADED    ],
   }
   ```
 */
