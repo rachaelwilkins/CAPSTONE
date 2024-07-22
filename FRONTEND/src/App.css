@@ -26,13 +26,16 @@
 .homePage {
   color: white;
   background-image: url('./Pages/BackgroundImages/Bimage5.png');
+  font-size: xx-large;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 90vh;
   width: 250%;
   align-content: center;
  }
 
-.LogInPage {
+.createTheme {
   color: white;
   background-image: url('./Pages/BackgroundImages/Bimage2.png');
   background-repeat: no-repeat;
@@ -41,7 +44,7 @@
   align-content: center;
  }
 
- .SignUp {
+ .signUp {
   color: white;
   background-image: url('./Pages/BackgroundImages/Bimage3.png');
   background-repeat: no-repeat;
@@ -54,4 +57,17 @@
   background-color: transparent;
   border: solid;
   color: white;
+}
+
+.AppBar {
+  color:#EFEEEC;
+  background-color: transparent;
+  padding: 40px;
+  align-items: right;
+}
+
+.Footer {
+  text-align: right;
+  color: #EFEEEC;
+  font-size: larger;
 }

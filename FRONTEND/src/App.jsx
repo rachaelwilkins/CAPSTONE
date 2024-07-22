@@ -2,15 +2,18 @@ import React from 'react'
 import './App.css'
 import HomePage from './Pages/Home'
 import { Route, Routes } from 'react-router-dom';
-import SignUp from './Pages/SignUp';
-import SignIn from './Pages/Login';
-import BoysSneakers from './Pages/Boys';
+import ButtonAppBar from './Components/NavBar';
+import AppRoutes from './Routes/Routes';
+import Footer from './Pages/Footer';
 
 function App() {
 
   return (
     <>
-      <BoysSneakers/>
+      <AppRoutes/>
+      <ButtonAppBar/>
+      <HomePage/>
+      <Footer/>
     </>
   )
 }
