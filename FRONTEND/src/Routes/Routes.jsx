@@ -6,7 +6,6 @@ import WomensSneakers from '../Pages/Women';
 import BoysSneakers from '../Pages/Boys'
 import GirlsSneakers from '../Pages/Girls'
 import LogInPage from '../Pages/SignIn';
-import CartPage from '../Pages/Cart'
 
 function AppRoutes() {
   return (
@@ -18,7 +17,6 @@ function AppRoutes() {
       <Route exact path="/boys" element={<BoysSneakers/>} />
       <Route exact path="/girls" element={<GirlsSneakers/>} />
       <Route exact path="/login" element={<LogInPage/>} />
-      <Route exact path="/cart" element={<CartPage/>} />
     </Routes>
     </div>
   )

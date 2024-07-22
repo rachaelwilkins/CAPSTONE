@@ -26,7 +26,6 @@ export default function ButtonAppBar() {
             <NavLink id="link" to="/boys">boys.</NavLink>
             <NavLink id="link" to="/girls">girls.</NavLink>
             <NavLink id="link" to="/login">login.</NavLink>
-            <NavLink id="link" to="/cart">cart.</NavLink>
           </Typography>   
         </Toolbar>
       </AppBar>

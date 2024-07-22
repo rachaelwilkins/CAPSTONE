@@ -35,39 +35,8 @@
   align-content: center;
  }
 
-.createTheme {
-  color: white;
-  background-image: url('./Pages/BackgroundImages/Bimage2.png');
-  background-repeat: no-repeat;
-  min-height: 95vh;
-  width: 100%;
-  align-content: center;
- }
-
- .signUp {
-  color: white;
-  background-image: url('./Pages/BackgroundImages/Bimage3.png');
-  background-repeat: no-repeat;
-  min-height: 95vh;
-  width: 100%;
-  align-content: center;
- }
-
  .button {
   background-color: transparent;
   border: solid;
   color: white;
-}
-
-.AppBar {
-  color:#EFEEEC;
-  background-color: transparent;
-  padding: 40px;
-  align-items: right;
-}
-
-.Footer {
-  text-align: right;
-  color: #EFEEEC;
-  font-size: larger;
 }
