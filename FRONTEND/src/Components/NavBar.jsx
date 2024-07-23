@@ -10,7 +10,7 @@ import '../App.css';
 export default function ButtonAppBar() {
   return (
       <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" sx={{backgroundColor: 'black'}}>
+      <AppBar position="sticky" sx={{backgroundColor: 'transparent', zIndex: 5}}>
         <Toolbar>
           <IconButton
             size="large"

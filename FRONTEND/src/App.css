@@ -28,11 +28,12 @@
   background-image: url('./Pages/BackgroundImages/Bimage5.png');
   font-size: xx-large;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-size: cover;
   min-height: 90vh;
   width: 250%;
   align-content: center;
+  top: 50px;
  }
 
  .button {
