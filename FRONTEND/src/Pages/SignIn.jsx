@@ -13,6 +13,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import '../App.css';
+import HomePage from './Home';
 
 function Copyright(props) {
   return (

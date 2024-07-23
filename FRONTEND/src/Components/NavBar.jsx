@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import { NavLink } from 'react-router-dom';
 import '../App.css';
+import Favicon from '../Favicons/favicon.ico'
 
 export default function ButtonAppBar() {
   return (
@@ -19,6 +20,7 @@ export default function ButtonAppBar() {
             aria-label="menu"
             sx={{ mr: 2 }}
           >
+          <img id="favicon" src={Favicon}/>  
           </IconButton>
           <Typography variant="h6" color="inherit" noWrap id="toolItems">
             <NavLink id="link" to="/men">men.</NavLink>

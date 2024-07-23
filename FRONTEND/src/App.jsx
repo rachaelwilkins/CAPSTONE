@@ -10,9 +10,8 @@ function App() {
 
   return (
     <>
-      <AppRoutes/>
       <ButtonAppBar/>
-      <HomePage/>
+      <AppRoutes/>
       <Footer/>
     </>
   )

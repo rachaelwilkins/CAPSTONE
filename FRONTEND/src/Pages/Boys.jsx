@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Grid } from "@mui/material";
 import SneakerCard from "../Components/Card";
+import DrawerAppBar from "../Components/ShoeDraw";
 
   export default function BoysSneakers() {
     const [boyShoeList, setBoyShoeList] = useState(null);
@@ -19,7 +20,7 @@ import SneakerCard from "../Components/Card";
       })
     }, []) 
     return (
-
+      // <DrawerAppBar>
       <Grid container spacing={4}>
             {boyShoeList?.map((product, index) => (
               <Grid item key={index} xs={12} sm={6} md={4} lg={3}> 
@@ -27,6 +28,7 @@ import SneakerCard from "../Components/Card";
               </Grid>               
             ))}
        </Grid>
+      //  </DrawerAppBar>
     )
   }
   

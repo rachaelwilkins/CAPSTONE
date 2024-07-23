@@ -41,3 +41,14 @@
   border: solid;
   color: white;
 }
+
+#link {
+  margin-left: 32px;
+  color: black;
+  text-align: end;
+}
+
+#favicon {
+  width: 50px;
+  height: 50px;
+}

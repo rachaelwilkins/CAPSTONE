@@ -8,7 +8,7 @@ import { CardActionArea } from '@mui/material';
 export default function SneakerCard(props) {
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
+      <CardActionArea sx={{ maxWidth: 345, minHeight: 350 }} >
         <CardMedia
           component="img"
           height="140"
@@ -20,7 +20,7 @@ export default function SneakerCard(props) {
             {props.name}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            {props.price}
+            ${props.price} NZD
           </Typography>
         </CardContent>
       </CardActionArea>

@@ -91,7 +91,7 @@ function DrawerAppBar(props) {
             '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
           }}
         >
-          {drawer}
+          {props.children}
         </Drawer>
       </nav>
       <Box component="main" sx={{ p: 3 }}>
