@@ -7,21 +7,22 @@ import { CardActionArea } from '@mui/material';
 
 export default function SneakerCard(props) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea sx={{ maxWidth: 345, minHeight: 350 }} >
+    <Card sx={{ maxWidth: 345 }} style={{backgroundColor: "white"}}>
+      <CardActionArea sx={{ maxWidth: 345, minHeight: 350 }} style={{backgroundColor: "white"}} >
         <CardMedia
           component="img"
-          height="140"
+          height="200"
           image={props.image[0]}
           alt="shoe"
         />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+        <CardContent style={{backgroundColor: "white"}}>
+          <Typography gutterBottom variant="h5" >
             {props.name}
           </Typography>
           <Typography variant="body2" color="text.secondary">
             ${props.price} NZD
           </Typography>
+          <button class="button"><a href={"/sneakers/"+props.id} color='white'>try it on.</a></button>
         </CardContent>
       </CardActionArea>
     </Card>

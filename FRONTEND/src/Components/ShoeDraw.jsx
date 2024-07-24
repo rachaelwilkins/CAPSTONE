@@ -10,7 +10,6 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
-import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
@@ -59,7 +58,7 @@ function DrawerAppBar(props) {
             onClick={handleDrawerToggle}
             sx={{ mr: 2, display: { sm: 'none' } }}
           >
-            <MenuIcon />
+            {/* <MenuIcon /> */}
           </IconButton>
           <Typography
             variant="h6"
@@ -102,12 +101,12 @@ function DrawerAppBar(props) {
   );
 }
 
-DrawerAppBar.propTypes = {
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
-  window: PropTypes.func,
-};
+// DrawerAppBar.propTypes = {
+//   /**
+//    * Injected by the documentation to work in an iframe.
+//    * You won't need it on your project.
+//    */
+//   window: PropTypes.func,
+// };
 
 export default DrawerAppBar;

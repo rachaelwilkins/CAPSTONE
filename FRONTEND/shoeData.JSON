@@ -5,7 +5,7 @@
         "id": 1,
         "brand": "Converse",
         "gender": "Women",
-        "name": "Converse Chuck Taylor All Star Lugged Heel High Top White",
+        "name": "Converse Chuck Taylor All Star Lugged Heel High Top",
         "price_nzd": 165,
         "size_range": ["5", "6", "7", "8", "9", "10", "11"],
         "stock_levels": 85,
@@ -964,9 +964,9 @@
       "cut": "Lo-cut",
       "rating": 4.3,
       "images": [
-        "./Images/Boys/",
-        "./Images/Men/VansM4-2.jpg",
-        "./Images/Men/VansM4-3.jpg"
+        "./Images/Boys/Stan_Smith_Shoes_White_FX7534_01_standard.avif",
+        "./Images/Boys/Stan_Smith_Shoes_White_FX7534_02_standard_hover.avif",
+        "./Images/Boys/Stan_Smith_Shoes_White_FX7534_03_standard.avif"
       ],
       "description": "Childhood is full of firsts. First steps. First day of school. First lost tooth. And now, first Stan Smiths. These kids' shoes are part of another first, too: adidas' first big steps towards reducing waste using recycled materials. Simple straps let them put this pair on all by themselves, even if their first perfect bow is still somewhere ahead of them."
     },

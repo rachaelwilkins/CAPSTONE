@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Grid } from "@mui/material";
 import SneakerCard from "../Components/Card";
-import DrawerAppBar from "../Components/ShoeDraw";
 
   export default function BoysSneakers() {
     const [boyShoeList, setBoyShoeList] = useState(null);
@@ -14,21 +13,21 @@ import DrawerAppBar from "../Components/ShoeDraw";
       ).then((response) => {
   
         console.log(response.data);
-  
-        setBoyShoeList(response.data);
-  
+        let filteredShoes = response.data.filter((shoe) => shoe.gender === 'Boys')
+        setBoyShoeList(filteredShoes);
+
       })
     }, []) 
     return (
-      // <DrawerAppBar>
+      
       <Grid container spacing={4}>
+            
             {boyShoeList?.map((product, index) => (
-              <Grid item key={index} xs={12} sm={6} md={4} lg={3}> 
-              <SneakerCard name={product.name} price={product.price_nzd} image={product.images}/>
+              <Grid item key={index} xs={12} sm={6} md={4}> 
+              <SneakerCard name={product.name} price={product.price_nzd} image={product.images} id={product.id}/>
               </Grid>               
             ))}
        </Grid>
-      //  </DrawerAppBar>
     )
   }
   

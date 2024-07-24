@@ -8,6 +8,8 @@ import GirlsSneakers from '../Pages/Girls'
 import LogInPage from '../Pages/SignIn';
 import Theme from '../Components/Theme/Theme';
 import HomePage from '../Pages/Home';
+import SignIn from '../Pages/SignIn';
+import AboutPage from '../Pages/About';
 
 function AppRoutes() {
   return (
@@ -20,7 +22,9 @@ function AppRoutes() {
       <Route exact path="/women" element={<WomensSneakers/>} />
       <Route exact path="/boys" element={<BoysSneakers/>} />
       <Route exact path="/girls" element={<GirlsSneakers/>} />
+      <Route exact path="/about" element={<AboutPage/>} />
       <Route exact path="/login" element={<Theme><LogInPage/></Theme>} />
+      <Route exact path="/signup" element={<Theme><SignIn/></Theme>} />
       <Route exact index element={<Theme><HomePage/></Theme>} />
     </Routes>
     </div>

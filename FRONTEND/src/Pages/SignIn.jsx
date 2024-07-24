@@ -15,6 +15,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import '../App.css';
 import HomePage from './Home';
 
+
 function Copyright(props) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
@@ -50,6 +51,7 @@ export default function SignIn() {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
+            color: 'white'
                     }}
         >
           <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>

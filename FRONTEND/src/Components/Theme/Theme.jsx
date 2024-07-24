@@ -7,7 +7,10 @@ const theme = createTheme({
   palette: {
     primary: {
       main: '#4A8E51'
-    }
+    },
+    background: {
+      paper: '#EFF7FF', // your color
+    },  
   },
 }
 );
@@ -23,7 +26,7 @@ export default function Theme(props) {
                     bgcolor: 'background.paper',
                     pt: 0,
                     pb: 0,
-                    mt: -10,
+                    mt: 0,
                 }}
                 >
                     <Container maxWidth="m">

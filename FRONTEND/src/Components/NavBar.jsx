@@ -11,7 +11,7 @@ import Favicon from '../Favicons/favicon.ico'
 export default function ButtonAppBar() {
   return (
       <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="sticky" sx={{backgroundColor: 'transparent', zIndex: 5}}>
+      <AppBar position="fixed" sx={{backgroundColor: 'transparent', zIndex: 5}}>
         <Toolbar>
           <IconButton
             size="large"
@@ -27,7 +27,9 @@ export default function ButtonAppBar() {
             <NavLink id="link" to="/women">women.</NavLink>
             <NavLink id="link" to="/boys">boys.</NavLink>
             <NavLink id="link" to="/girls">girls.</NavLink>
+            <NavLink id="link" to="/about">about.</NavLink>
             <NavLink id="link" to="/login">login.</NavLink>
+            <NavLink id="link" to="/cart">cart.</NavLink>
           </Typography>   
         </Toolbar>
       </AppBar>
