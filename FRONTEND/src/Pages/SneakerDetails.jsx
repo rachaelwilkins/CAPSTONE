@@ -1,8 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import { useParams } from 'react-router-dom';
 import axios from "axios";
-import { Typography } from '@mui/material';
-
 
 export default function SneakerDetails() {
     const params=useParams ()
@@ -23,9 +21,16 @@ export default function SneakerDetails() {
     }, []) 
   return (
     <div id='shoedetail'>
-            <h2>{shoe?.name}</h2>
+            {/* {shoe?.images[0]} */}
+            <h3>{shoe?.name}</h3>
             <h3>${shoe?.price_nzd} NZD</h3>
             <h6>{shoe?.description}</h6>
+            <h6>material: {shoe?.material}</h6>
+            <h6>cut: {shoe?.cut}</h6>
+            <h6>heel: {shoe?.heel_size}</h6>
+            <h6>rating:</h6>
+            <h6>size:</h6>
+            <button class="button"><a href="/cart" color='black'>add to cart.</a></button>
     </div>
   )
 }

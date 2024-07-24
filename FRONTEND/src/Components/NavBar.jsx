@@ -7,6 +7,9 @@ import IconButton from '@mui/material/IconButton';
 import { NavLink } from 'react-router-dom';
 import '../App.css';
 import Favicon from '../Favicons/favicon.ico'
+import { FaCartShopping } from "react-icons/fa6";
+import { FaHeart } from "react-icons/fa";
+import { IoPerson } from "react-icons/io5";
 
 export default function ButtonAppBar() {
   return (
@@ -27,9 +30,11 @@ export default function ButtonAppBar() {
             <NavLink id="link" to="/women">women.</NavLink>
             <NavLink id="link" to="/boys">boys.</NavLink>
             <NavLink id="link" to="/girls">girls.</NavLink>
+            <NavLink id="link" to="/brands">brands.</NavLink>
             <NavLink id="link" to="/about">about.</NavLink>
-            <NavLink id="link" to="/login">login.</NavLink>
-            <NavLink id="link" to="/cart">cart.</NavLink>
+            <NavLink id="link" to="/wishlist"><FaHeart/></NavLink>
+            <NavLink id="link" to="/cart"><FaCartShopping/></NavLink>
+            <NavLink id="link" to="/login"><IoPerson/></NavLink>
           </Typography>   
         </Toolbar>
       </AppBar>
