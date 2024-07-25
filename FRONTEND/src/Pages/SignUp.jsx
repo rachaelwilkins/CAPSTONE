@@ -12,17 +12,29 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import '../App.css';
+import axios from "axios";
 
 export default function SignUp() {
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
-    console.log({
+    const object={
+      first_name: data.get('firstName'),
+      last_name: data.get('lastName'),
       email: data.get('email'),
       password: data.get('password'),
-    });
+    };
+    const sneakerLink = `http://localhost:8080/api/users/create`
+    return axios.post(sneakerLink, object)
+        .then(response => { 
+            console.log(response.data.data);
+            alert('successfully signed up.')
+         })
+        .catch(error => { 
+            console.log(error);
+            return Promise.reject(error);
+        })
   };
-
   return (
       <Container component="main" maxWidth="xs">
         <CssBaseline />
@@ -50,7 +62,7 @@ export default function SignUp() {
                   name="firstName"
                   required
                   fullWidth
-                  id="firstName"
+                  id="first_name"
                   label="first name."
                   autoFocus
                 />
@@ -59,7 +71,7 @@ export default function SignUp() {
                 <TextField
                   required
                   fullWidth
-                  id="lastName"
+                  id="last_name"
                   label="last name."
                   name="lastName"
                   autoComplete="family-name"
@@ -95,6 +107,7 @@ export default function SignUp() {
             </Grid>
             <Button
               type="submit"
+              fontFamily="League Spartan"
               fullWidth
               variant="contained"
               sx={{ mt: 3, mb: 2 }}

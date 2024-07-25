@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { useEffect, useState} from 'react';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -12,48 +12,53 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import '../App.css';
+import { useData } from '../Hooks/useData';
+import { useNavigate } from 'react-router-dom';
+import { useUserContext } from '../Context/SneakerContext';
 
 
 export default function SignIn() {
+  const{user, setUser} = useUserContext()
+  const data = useData(`http://localhost:8080/api/users`);
+  const [LEmail, setLEmail] = useState('')
+  const [LPassWord, setLPassWord] = useState('')
+  const [users, setUsers] = useState('')
+  const [validateMsg, setValidateMsg] = useState(null)
+  let navigate = useNavigate();
+
+  //get the users
+
+  useEffect(() => {
+      setUsers(data ? data:[])
+      }, [data]
+      )
   const handleSubmit=(event)=>
     {
       event.preventDefault()
-      let matchedUserName=false
+      let matchedEmail=false
         for (let u of users)
         {
-          console.log(u, "Username")
-          if (LUserName===u?.UserName)
+          console.log(u, "Email")
+          if (LEmail===u?.email)
           {
             console.log(u, "password verification")
-            matchedUserName=true
-            if (LPassWord===u?.Password)
+            matchedEmail=true
+            if (LPassWord===u?.password)
             {
-              console.log(u?.UserName, u?.Password, u?._id)
               setUser(u)
               console.log(u)
               navigate('/');
             }
-
             else
-
             {
-
-                alert('Incorrect password, please try again.');
-
+                alert('incorrect password - please try again.');
             }
-
           }
-
         }
-
-        if (!matchedUserName)
-
+        if (!matchedEmail)
         {
-
-          alert('Incorrect username, please register first.');
-
+          alert('unknown email - please register first.');
         }
-
     }
   // const handleSubmit = (event) => {
   //   event.preventDefault();
@@ -94,6 +99,7 @@ export default function SignIn() {
               name="email"
               autoComplete="email"
               autoFocus
+              onChange={e=>setLEmail(e.target.value)}
             />
             <TextField
               margin="normal"
@@ -104,6 +110,7 @@ export default function SignIn() {
               type="password"
               id="password"
               autoComplete="current-password"
+              onChange={e=>setLPassWord(e.target.value)}
             />
             <FormControlLabel
               control={<Checkbox value="remember" color="secondary" />}

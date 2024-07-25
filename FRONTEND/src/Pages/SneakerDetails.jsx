@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import { useParams } from 'react-router-dom';
 import axios from "axios";
+import { Card, CardActionArea, CardMedia, Grid } from '@mui/material';
 
 export default function SneakerDetails() {
     const params=useParams ()
@@ -18,11 +19,12 @@ export default function SneakerDetails() {
     useEffect(() => {
       axios.get(
 
-        `http://localhost:3000/sneakers`
+        `http://localhost:8080/api/sneakers`
   
       ).then((response) => {
-        const filteredArray = response.data.filter((shoe) => shoe.id === shoeID)
+        const filteredArray = response.data.data.filter((shoe) => shoe._id === shoeID)
         console.log(filteredArray);
+        console.log(filteredArray[0].images);
   
         setShoe(filteredArray[0]);
   
@@ -31,8 +33,25 @@ export default function SneakerDetails() {
   return (
     <div id='shoedetail'>
             {/* {shoe?.images[0]} */}
+            <Grid container spacing={4}>          
+            {shoe?.images.map((image, index) => (
+              console.log(image),
+              <Grid item key={index} xs={12} sm={6} md={4} lg={3}>
+            <Card sx={{ maxWidth: 345 }} style={{backgroundColor: "white"}}>
+              <CardActionArea sx={{ maxWidth: 345, minHeight: 400 }} style={{backgroundColor: "white"}} >
+                <CardMedia
+                component="img"
+               height="275"
+                image={image}
+                 alt="shoe"
+                 />
+                 </CardActionArea>
+                 </Card>
+                 </Grid>               
+                ))}
+           </Grid>
             <h3>{shoe?.name}</h3>
-            <h3>${shoe?.price_nzd} NZD</h3>
+            <h3>${shoe?.price_nzd} nzd</h3>
             <h6>{shoe?.description}</h6>
             <h6>material: {shoe?.material}</h6>
             <h6>cut: {shoe?.cut}</h6>
