@@ -16,7 +16,6 @@ import { useData } from '../Hooks/useData';
 import { useNavigate } from 'react-router-dom';
 import { useUserContext } from '../Context/SneakerContext';
 
-
 export default function SignIn() {
   const{user, setUser} = useUserContext()
   const data = useData(`http://localhost:8080/api/users`);
