@@ -9,7 +9,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
  res.json({ message: "Welcome to my Capstone Project." });
 });
-   
+    
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
 let sneakerRoutes = require('./Routes/sneakerRoutes');
