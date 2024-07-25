@@ -1,0 +1,1298 @@
+
+{
+    "sneakers": [
+      {
+        "id": 1,
+        "brand": "Converse",
+        "gender": "Women",
+        "name": "Converse Chuck Taylor All Star Lugged Heel High Top",
+        "price_nzd": 165,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 85,
+        "material": "Canvas",
+        "heel_size": "Chunky",
+        "cut": "Hi-top",
+        "rating": 4.5,
+        "images": [
+          "./Images/Women/CV W1-1.jpg",
+          "./Images/Women/CV W1-2.jpg",
+          "./Images/Women/CV W1-3.jpg"
+        ],
+        "description": "Introducing your new favourite Chucks. The iconic design you know and love gets a stylish update, with a chunky lugged heel to boost all your favourite looks. Dress it up, dress it down—these high tops come ready to elevate the everyday."
+      },
+      {
+        "id": 2,
+        "brand": "Nike",
+        "gender": "Women",
+        "name": "Nike Air Force 1 '07",
+        "price_nzd": 195,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 75,
+        "material": "Leather",
+        "heel_size": "Platform",
+        "cut": "Lo-cut",
+        "rating": 4.7,
+        "images": [
+          "./Images/Women/Nike W1-1.png",
+          "./Images/Women/Nike W1-2.png",
+          "./Images/Women/Nike W1-3.png"
+        ],
+        "description": "The radiance lives on in the Nike Air Force 1 '07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, bold colors and the perfect amount of flash to make you shine. A subtle platform gives you just the right amount of height."
+      },
+      {
+        "id": 3,
+        "brand": "Reebok",
+        "gender": "Women",
+        "name": "Reebok Classic Leather",
+        "price_nzd": 160,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 65,
+        "material": "Leather",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.3,
+        "images": [
+          "./Images/Women/RBK W1-1.jpg",
+          "./Images/Women/RBK W1-2.jpg",
+          "./Images/Women/RBK W1-3.jpg"
+        ],
+        "description": "A true '80s OG. Consider these women's Reebok Classic Leather Shoes your blank canvas for style. Clean lines and solid colors make it easy to pair them with anything. Behind the scenes, a cushioned midsole and soft lining make them extra comfortable."
+      },
+      {
+        "id": 4,
+        "brand": "New Balance",
+        "gender": "Women",
+        "name": "New Balance 480",
+        "price_nzd": 160,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 55,
+        "material": "Leather",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.6,
+        "images": [
+          "./Images/Women/NB W3-1.jpg",
+          "./Images/Women/NB W3-2.jpg",
+          "./Images/Women/NB W3-3.jpg"
+        ],
+        "description": "Inspired by original game-day silhouettes, the 480 is simple, clean and classic."
+      },
+      {
+        "id": 5,
+        "brand": "Asics",
+        "gender": "Women",
+        "name": "Asics Japan S PF",
+        "price_nzd": 170,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 90,
+        "material": "Leather",
+        "heel_size": "Chunky",
+        "cut": "Lo-cut",
+        "rating": 4.4,
+        "images": [
+          "./Images/Women/Asics W1-1.jpg",
+          "./Images/Women/Asics W1-2.jpg",
+          "./Images/Women/Asics W1-3.jpg"
+        ],
+        "description": "The JAPAN S™ PF shoes are based on throwback offerings from 1981. This women's exclusive silhouette has been reimagined with neutral tones, while the traditional midsole has been replaced with a platform design. Mimicking the aesthetic of a retro basketball sneaker, this heritage style is also paired with nostalgic ASICS branding, like the tiger stripes on the quarter-panels.The JAPAN S™ PF shoe's vintage basketball aesthetic is paired with iconic court-specific details that are inspired by footwear worn on the hardwood by basketball players in the 80s."
+      },
+      {
+        "id": 6,
+        "brand": "Adidas",
+        "gender": "Women",
+        "name": "adidas Forum Low",
+        "price_nzd": 180,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 80,
+        "material": "Leather",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.8,
+        "images": [
+          "./Images/Women/Forum_Low_Shoes_White_IF2733_01_standard.avif",
+          "./Images/Women/Forum_Low_Shoes_White_IF2733_02_standard_hover.avif",
+          "./Images/Women/Forum_Low_Shoes_White_IF2733_03_standard.avif"
+        ],
+        "description": "Sleek, stylish and legendary are just a few of the words that can describe the adidas Forum. Since its debut in the '80s the silhouette has become a staple in street fashion. The unmistakable X-panel and hook-and-loop strap remain iconic to solidify this pair of the shoes as a classic. Whatever the day calls for, let your individuality shine with each step."
+      },
+      {
+        "id": 7,
+        "brand": "Lacoste",
+        "gender": "Women",
+        "name": "Lacoste Baseshot Premium Leather",
+        "price_nzd": 250,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 70,
+        "material": "Leather",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.5,
+        "images": [
+          "./Images/Women/Lacoste W1-1.jpg",
+          "./Images/Women/Lacoste W1-2.jpg",
+          "./Images/Women/Lacoste W1-3.jpg"
+        ],
+        "description": "The Baseshot premium sneaker is designed with a plush leather upper, a contrasting rubber sole and branded embroidery to the tongue, offering a timeless appeal."
+      },
+      {
+        "id": 8,
+        "brand": "Converse",
+        "gender": "Women",
+        "name": "Converse Chuck Taylor All Star Classic Colour High Top White Mono",
+        "price_nzd": 140,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 50,
+        "material": "Canvas",
+        "heel_size": "Flat",
+        "cut": "Hi-top",
+        "rating": 4.2,
+        "images": [
+          "./Images/Women/CV W2-1.jpg",
+          "./Images/Women/CV W2-2.jpg",
+          "./Images/Women/CV W2-3.jpg"
+        ],
+        "description": "We could tell you that it's the OG basketball shoe, created over 100 years ago. Or that the design has largely stayed the same, because why mess with a good thing. Or how it became the unofficial sneaker of all your favourite artists and musicians, who each made it their own. Yeah, we could share a lot of stories, but the one that matters most isn't ours—it's yours. It's how and where you take your Chucks. The legacy is long, but what comes next is up to you. We just make the shoe. You make the stories."
+      },
+      {
+        "id": 9,
+        "brand": "Nike",
+        "gender": "Women",
+        "name": "Nike Blazer Mid '77",
+        "price_nzd": 145,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 60,
+        "material": "Leather",
+        "heel_size": "Flat",
+        "cut": "Hi-top",
+        "rating": 4.6,
+        "images": [
+          "./Images/Women/Nike W2-1.png",
+          "./Images/Women/Nike W2-2.png",
+          "./Images/Women/Nike W2-3.png"
+        ],
+        "description": "Styled for the '70s. Loved in the '80s. Classic in the '90s. Ready for the future. The Nike Blazer Mid '77 delivers a timeless design that's easy to wear. Its unbelievably crisp leather upper breaks in beautifully and pairs with bold retro branding and luscious suede accents for a premium feel. Exposed foam on the tongue and a special midsole finish make it look like you've just pulled them from the history books. Go ahead, perfect your outfit."
+      },
+      {
+        "id": 10,
+        "brand": "Reebok",
+        "gender": "Women",
+        "name": "Reebok Princess",
+        "price_nzd": 125,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 40,
+        "material": "Synthetic",
+        "heel_size": "Flat",
+        "cut": "Hi-top",
+        "rating": 4.1,
+        "images": [
+          "./Images/Women/RBK W2-1.jpg",
+          "./Images/Women/RBK W2-2.jpg",
+          "./Images/Women/RBK W2-3.jpg"
+        ],
+        "description": "Between cushion and timeless style, let this women's shoe cast its spell over you. You'll fall hard for the clean upper design with subtle perforations and stitching. The Union Jack symbol sits right below the laces for heritage style."
+      },
+      {
+        "id": 11,
+        "brand": "New Balance",
+        "gender": "Women",
+        "name": "New Balance 574",
+        "price_nzd": 170,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 45,
+        "material": "Synthetic",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.7,
+        "images": [
+          "./Images/Women/NB W2-1.jpg",
+          "./Images/Women/NB W2-2.jpg",
+          "./Images/Women/NB W2-3.jpg"
+        ],
+        "description": "The 574 was built to be a reliable shoe that could do a lot of different things well rather than as a platform for revolutionary technology, or as a premium materials showcase. This unassuming, unpretentious versatility is exactly what launched the 574 into the ranks of all-time greats. As hybrid road/trail design built on a wider last than the previous generation’s narrow racing silhouettes, the 574 offered a uniquely versatile mix of new, different, uncomplicated, rugged, durable, and comfortable that was adopted as a closet staple across the globe."
+      },
+      {
+        "id": 12,
+        "brand": "Asics",
+        "gender": "Women",
+        "name": "Asics EX89 MT",
+        "price_nzd": 260,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 85,
+        "material": "Leather",
+        "heel_size": "Flat",
+        "cut": "Hi-top",
+        "rating": 4.3,
+        "images": [
+         "./Images/Women/Asics W3-1.jpg",
+         "./Images/Women/Asics W3-2.jpg",
+         "./Images/Women/Asics W3-3.jpg"
+        ],
+        "description": "The EX89™ MT sneaker blends the heritage influences of the GEL-EXTREME basketball shoe from 1989 with modern cushioning properties. It was originally created by Toshikazu Kayano in the late 1980s as his first design project with ASICS. Its original high-top design was reworked with a mid-cut construction and color palettes that resemble an aged vintage look."
+      },
+      {
+        "id": 13,
+        "brand": "Adidas",
+        "gender": "Women",
+        "name": "adidas Forum XLG",
+        "price_nzd": 200,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 90,
+        "material": "Leather",
+        "heel_size": "Chunky",
+        "cut": "Lo-cut",
+        "rating": 4.9,
+        "images": [
+          "./Images/Women/Forum_XLG_Shoes_White_ID6809_01_standard.avif",
+          "./Images/Women/Forum_XLG_Shoes_White_ID6809_02_standard_hover.avif",
+          "./Images/Women/Forum_XLG_Shoes_White_ID6809_03_standard.avif"
+        ],
+        "description": "Looking to stand out from the crowd? These adidas Forum XLG shoes are designed to do just that. With the dynamic combo of a smooth leather upper and stepped-up rubber outsole, these shoes can take you from a skate park to an art gallery in style. New textures and detailing in the tonal X-overlay and double-layered tongue push the Forum into a bold new territory. Lace these up and prepare to be the envy of everyone you see."
+      },
+      {
+        "id": 14,
+        "brand": "Lacoste",
+        "gender": "Women",
+        "name": "Lacoste Lineshot Signature Heel Leather",
+        "price_nzd": 350,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 35,
+        "material": "Leather",
+        "heel_size": "Chunky",
+        "cut": "Lo-cut",
+        "rating": 4.6,
+        "images": [
+          "./Images/Women/Lacoste W2-1.jpg",
+          "./Images/Women/Lacoste W2-2.jpg",
+          "./Images/Women/Lacoste W2-3.jpg"
+        ],
+        "description": "Designed for comfort, the Lineshot draws on classic ‘90s tennis styles – with a modern touch. Breathable upper, technical construction: the perfect blend of tradition and innovation."
+      },
+      {
+        "id": 15,
+        "brand": "Converse",
+        "gender": "Women",
+        "name": "Converse Chuck Taylor All Star Classic Colour Low Top White",
+        "price_nzd": 140,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 30,
+        "material": "Canvas",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.1,
+        "images": [
+          "./Images/Women/CV W3-1.jpg",
+          "./Images/Women/CV W3-2.jpg",
+          "./Images/Women/CV W3-3.jpg"
+        ],
+        "description": "Edgy this week, sporty next. Ten years from now? TBD. No matter how (or when) your style changes, you can always come back to the classic. The original Chuck Taylor All Star—an icon for every era."
+      },
+      {
+        "id": 16,
+        "brand": "Nike",
+        "gender": "Women",
+        "name": "Nike Zoom Vomero 5",
+        "price_nzd": 160,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 95,
+        "material": "Synthetic",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.7,
+        "images": [
+          "./Images/Women/Nike W3-1.png",
+          "./Images/Women/Nike W3-2.png",
+          "./Images/Women/Nike W3-3.png"
+        ],
+        "description": "Carve a new lane for yourself in the Zoom Vomero 5—your go-to for complexity, depth and easy styling. The richly layered design includes textiles, synthetic leather and plastic accents that come together to make one of the sleekest sneakers of the season."
+      },
+      {
+        "id": 17,
+        "brand": "Reebok",
+        "gender": "Women",
+        "name":"Reebok Club C Extra",
+        "price_nzd": 140,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 70,
+        "material": "Leather",
+        "heel_size": "Chunky",
+        "cut": "Lo-cut",
+        "rating": 4.4,
+        "images": [
+          "./Images/Women/RBK W3-1.jpg",
+          "./Images/Women/RBK W3-2.jpg",
+          "./Images/Women/RBK W3-3.jpg"
+        ],
+        "description": "Being extra is a good thing. These women's Club C Extra shoes prove it. An exaggerated platform midsole with a geometric design gives you an amplified look. Don't miss the outsole which has a 3D tennis racket effect. Subtle hits of iconic color on the leather upper seal the deal."
+      },
+      {
+        "id": 18,
+        "brand": "New Balance",
+        "gender": "Women",
+        "name": "New Balance BBW550",
+        "price_nzd": 190,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 55,
+        "material": "Leather",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.5,
+        "images": [
+          "./Images/Women/NB W2-1.jpg",
+          "./Images/Women/NB W2-2.jpg",
+          "./Images/Women/NB W2-3.jpg"
+        ],
+        "description": "The original 550 debuted in 1989 and made its mark on basketball courts from coast to coast. After its initial run, the 550 was filed away in the archives, before being reintroduced in limited-edition releases in late 2020, and returned to the full-time lineup in 2021, quickly becoming a global fashion favorite. The 550’s low top, streamlined silhouette offers a clean take on the heavy-duty designs of the late ‘80s, while the dependable leather, synthetic, and mesh upper construction is a classic look in any era."
+      },
+      {
+        "id": 19,
+        "brand": "Asics",
+        "gender": "Women",
+        "name": "Asics Japan S",
+        "price_nzd": 140,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 80,
+        "material": "Synthetic",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.2,
+        "images": [
+          "./Images/Women/Asics W2-1.jpg",
+          "./Images/Women/Asics W2-2.jpg",
+          "./Images/Women/Asics W2-3.jpg"
+        ],
+        "description": "Walk out in the JAPAN S heritage-inspired sportstyle shoe. Made with a mix of smooth leather and hint of colour, the clean good looks of this shoe will take you from the office to the street in style and comfort."
+      },
+      {
+        "id": 20,
+        "brand": "Adidas",
+        "gender": "Women",
+        "name": "adidas Gazelle Indoor",
+        "price_nzd": 180,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 65,
+        "material": "Leather",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.8,
+        "images": [
+          "./Images/Women/Gazelle_Indoor_Shoes_White_IE2957_01_standard.avif",
+          "./Images/Women/Gazelle_Indoor_Shoes_White_IE2957_02_standard_hover.avif",
+          "./Images/Women/Gazelle_Indoor_Shoes_White_IE2957_03_standard.avif"
+        ],
+        "description": "Adidas lo-cut sneakers with premium leather material and a platform heel, ideal for a stylish and sporty look."
+      },
+      {
+        "id": 21,
+        "brand": "Lacoste",
+        "gender": "Women",
+        "name": "Lacoste Ziane Platform Leather",
+        "price_nzd": 280,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 40,
+        "material": "Leather",
+        "heel_size": "Platform",
+        "cut": "Lo-cut",
+        "rating": 4.5,
+        "images": [
+          "./Images/Women/Lacoste W3-1.jpg",
+          "./Images/Women/Lacoste W3-2.jpg",
+          "./Images/Women/Lacoste W3-3.jpg"
+        ],
+        "description": "Make your mark in the updated Ziane sneakers: bigger and better than ever. Elevate your style. Literally."
+      },
+      {
+        "id": 22,
+        "brand": "Vans",
+        "gender": "Women",
+        "name": "Vans Authentic",
+        "price_nzd": 110,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 35,
+        "material": "Canvas",
+        "heel_size": "Chunky",
+        "cut": "Hi-top",
+        "rating": 4.3,
+        "images": [
+          "./Images/Women/Vans W 2-1.jpg",
+          "./Images/Women/Vans W 2-2.jpg",
+          "./Images/Women/Vans W 2-3.jpg"
+        ],
+        "description": "The Authentic, Vans original and now iconic style, is a simple low top, lace-up with durable canvas upper, metal eyelets, Vans flag label and Vans original Waffle Outsole."
+      },
+      {
+        "id": 23,
+        "brand": "Vans",
+        "gender": "Women",
+        "name": "Vans Old Skool True White",
+        "price_nzd": 140,
+        "size_range": ["5", "6", "7", "8", "9", "10", "11"],
+        "stock_levels": 50,
+        "material": "Canvas",
+        "heel_size": "Chunky",
+        "cut": "Lo-cut",
+        "rating": 4.4,
+        "images": [
+          "./Images/Women/Vans W 1-1.jpg",
+          "./Images/Women/Vans W 1-2.jpg",
+          "./Images/Women/Vans W 1-3.jpg"
+        ],
+        "description": "Introduced in 1977, the Vans Old Skool sneaker is a classic in the Vans collection. Full of attitude, the Old Skool is durable and lightweight, and can give the other boys in the collection a run for its money. Constructed from canvas, The Vans Old Skool features contrasting suede panels along the toe and heel, plus the iconic stripe along the side of the shoe, and sits over a chunky midsole."
+      },
+      {
+        "id": 26,
+        "brand": "Converse",
+        "gender": "Men",
+        "name": "Converse Chuck 70 Archival Stripes High Top",
+        "price_nzd": 165,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 90,
+        "material": "Canvas",
+        "heel_size": "Flat",
+        "cut": "Hi-top",
+        "rating": 4.5,
+        "images": [
+          "./Images/Men/CVM1-1.jpg",
+          "./Images/Men/CVM1-2.jpg",
+          "i./Images/Men/CVM1-3.jpg"
+        ],
+        "description": "These premium Chuck 70s channel prime nostalgia in a nod to retro vibes. Core details deliver on reliable fashion and function, while archival features like vintage-inspired stripes and colours kick it back to old-school style."
+      },
+      {
+        "id": 27,
+        "brand": "Nike",
+        "gender": "Men",
+        "name": "Nike Air Force 1 '07 LV8",
+        "price_nzd": 220,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 85,
+        "material": "Leather",
+        "heel_size": "Chunky",
+        "cut": "Lo-cut",
+        "rating": 4.7,
+        "images": [
+          "./Images/Men/NikeM1-1.jpg",
+          "./Images/Men/NikeM1-2.jpg",
+          "./Images/Men/NikeM1-3.jpg"
+        ],
+        "description": "From tough stitching to pristine materials to the cupsole design, it delivers durable style that's smoother than backboard glass. Originally designed for performance hoops, Nike Air cushioning delivers lasting comfort. "
+      },
+      {
+        "id": 28,
+        "brand": "Reebok",
+        "gender": "Men",
+        "name": "Reebok Ex-O-Fit Hi",
+        "price_nzd": 160,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 70,
+        "material": "Leather",
+        "heel_size": "Flat",
+        "cut": "Hi-top",
+        "rating": 4.3,
+        "images": [
+          "./Images/Men/RBKM2-1.jpg",
+          "./Images/Men/RBKM2-2.jpg",
+          "./Images/Men/RBKM2-3.jpg"
+        ],
+        "description": "We're reminding sneakerheads why our Ex-O-Fit is so iconic by getting back to basics in this men's shoe. The minimal styling keeps the focus on this mid-cut masterpiece's foot feel, durability and comfort. Lock in the ankle strap for security and a head-turning retro look."
+      },
+      {
+        "id": 29,
+        "brand": "New Balance",
+        "gender": "Men",
+        "name": "New Balance 480",
+        "price_nzd": 160,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 65,
+        "material": "Leather",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.6,
+        "images": [
+          "./Images/Men/NBM3-1.jpg",
+          "./Images/Men/NBM3-2.jpg",
+          "./Images/Men/NBM3-3.jpg"
+        ],
+        "description": "Inspired by original game-day silhouettes, the 480 is simple, clean and classic."
+      },
+      {
+        "id": 30,
+        "brand": "Asics",
+        "gender": "Men",
+        "name": "Asics Japan S",
+        "price_nzd": 150,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 95,
+        "material": "Synthetic",
+        "heel_size": "Chunky",
+        "cut": "Lo-cut",
+        "rating": 4.4,
+        "images": [
+          "./Images/Men/AsicsM1-1.jpg",
+          "./Images/Men/AsicsM1-2.jpg",
+          "i./Images/Men/AsicsM1-3.jpg"
+        ],
+        "description": "Walk out in the JAPAN S heritage-inspired sportstyle shoe. Made with a mix of smooth synthetic leather and hint of colour, the clean good looks of this shoe will take you from the office to the street in style and comfort."
+      },
+      {
+        "id": 31,
+        "brand": "Adidas",
+        "gender": "Men",
+        "name": "adidas Forum Mid",
+        "price_nzd": 190,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 75,
+        "material": "Leather",
+        "heel_size": "Flat",
+        "cut": "Hi-top",
+        "rating": 4.8,
+        "images": [
+          "./Images/Men/Forum_Mid_Shoes_White_FY4975_01_standard.avif",
+          "./Images/Men/Forum_Mid_Shoes_White_FY4975_02_standard_hover.avif",
+          "./Images/Men/Forum_Mid_Shoes_White_FY4975_03_standard.avif"
+        ],
+        "description": "Let's take a moment to honour an icon. Is it the gravity-defying B-ball legend from the '80s? Or perhaps the status shoe that adorned the feet of rappers? Both, in fact. The adidas Forum shoes have dominated the hardwood and the streets, and they're back in a mid top version to take your moves to the next level. Slip into the unmistakable style, now in luxurious coated leather, and flaunt that pure class."
+      },
+      {
+        "id": 32,
+        "brand": "Lacoste",
+        "gender": "Men",
+        "name": "Lacoste Powercourt",
+        "price_nzd": 210,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 60,
+        "material": "Synthetic",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.5,
+        "images": [
+          "./Images/Men/LacosteM1-1.jpg",
+          "./Images/Men/LacosteM1-2.jpg",
+          "./Images/Men/LacosteM1-3.jpg"
+        ],
+        "description": "Stylish Lacoste lo-cut sneakers with synthetic material, providing both comfort and elegance."
+      },
+      {
+        "id": 33,
+        "brand": "Converse",
+        "gender": "Men",
+        "name": "Converse Chuck Taylor All Star High Street Low Top",
+        "price_nzd": 125,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 45,
+        "material": "Canvas",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.2,
+        "images": [
+          "./Images/Men/CVM2-1.jpg",
+          "./Images/Men/CVM2-2.jpg",
+          "./Images/Men/CVM2-3.jpg"
+        ],
+        "description": "The Chuck Taylor All Star High Street sneaker gets a fresh update for the season. Styled with sport-inspired features, including a padded collar and tongue, comfortable OrthoLite sockliner, and an internal elastic gore band for fit, this sneaker is ready for anything."
+      },
+      {
+        "id": 34,
+        "brand": "Nike",
+        "gender": "Men",
+        "name": "Nike Air Force 1 '07 Mid",
+        "price_nzd": 150,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 55,
+        "material": "Leather",
+        "heel_size": "Chunky",
+        "cut": "Hi-top",
+        "rating": 4.6,
+        "images": [
+          "./Images/Men/NikeM2-1.jpg",
+          "./Images/Men/NikeM2-2.jpg",
+          "i./Images/Men/NikeM2-3.jpg"
+        ],
+        "description": "High-performance Nike hi-top sneakers with leather material and a platform heel, perfect for both sports and casual wear."
+      },
+      {
+        "id": 35,
+        "brand": "Reebok",
+        "gender": "Men",
+        "name": "Reebok ATR Chill",
+        "price_nzd": 150,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 50,
+        "material": "Leather",
+        "heel_size": "Chunky",
+        "cut": "Lo-cut",
+        "rating": 4.1,
+        "images": [
+          "./Images/Men/RBKM3-1.jpg",
+          "./Images/Men/RBKM3-2.jpg",
+          "./Images/Men/RBKM3-3.jpg"
+        ],
+        "description": "The upper design of these Reebok ATR Chill Shoes is inspired by our Above the Rim basketball heritage. Every step will feel more plush, thanks to the comfy sockliner."
+      },
+      {
+        "id": 36,
+        "brand": "New Balance",
+        "gender": "Men",
+        "name": "New Balance T500",
+        "price_nzd": 200,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 35,
+        "material": "Synthetic",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.7,
+        "images": [
+          "./Images/Men/NBM1-1.jpg",
+          "./Images/Men/NBM1-2.jpg",
+          "./Images/Men/NBM1-3.jpg"
+        ],
+        "description": "Originally released in 1982, the T500 was designed to bring superior quality to a versatile on-court style. While the reintroduced T500 is designed more for leisure than competition, everything that made the T500 a great tennis shoe then, makes it a timeless classic now."
+      },
+      {
+        "id": 37,
+        "brand": "Asics",
+        "gender": "Men",
+        "name": "Asics Japan S ST", 
+        "price_nzd": 180,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 80,
+        "material": "Synthetic",
+        "heel_size": "Platform",
+        "cut": "Lo-cut",
+        "rating": 4.3,
+        "images": [
+          "./Images/Men/AsicsM2-1.jpg",
+          "./Images/Men/AsicsM2-2.jpg",
+          "./Images/Men/AsicsM2-3.jpg"
+        ],
+        "description": "Basketball heritage meets elevated comfort on the JAPAN S™ ST sneaker. Based on one of our throwback offerings from 1981, this silhouette evolves an iconic design with amplified cushioning properties."
+      },
+      {
+        "id": 38,
+        "brand": "Adidas",
+        "gender": "Men",
+        "name": "adidas Samba OG",
+        "price_nzd": 200,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 70,
+        "material": "Leather",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.9,
+        "images": [
+          "./Images/Men/Samba_OG_Shoes_White_IE0877_01_standard.avif",
+          "./Images/Men/Samba_OG_Shoes_White_IE0877_02_standard.avif",
+          "./Images/Men/Samba_OG_Shoes_White_IE0877_03_standard.avif"
+        ],
+        "description": "Long before the adidas Samba shoes took to the streets, they left their mark on the indoor football pitch. Their smooth leather upper, nubuck toe cap and reinforced rubber sole were designed with agility and control in mind. Though times have changed, their essence remains. Today, they carry on the legacy as an iconic street style, ready for whatever your day brings. Moulded into their design is decades of history, keeping the spirit of the Trefoil alive."
+      },
+      {
+        "id": 39,
+        "brand": "Lacoste",
+        "gender": "Men",
+        "name": "Lacoste Gripshot",
+        "price_nzd": 210,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 50,
+        "material": "Leather",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.6,
+        "images": [
+          "./Images/Men/LacosteM2-1.jpg",
+          "./Images/Men/LacosteM2-2.jpg",
+          "./Images/Men/LacosteM2-3.jpg"
+        ],
+        "description": "Presented in core colorways with a contemporary chunky silhouette, the Gripshot is easy-to-pair for effortless everyday wear. The smooth, lustrous leather uppers contrast with the textured herringbone foxing on the outsole. Color hits come from the heel tab and tennis-court inspired angled lines. The distinctive embroidered green crocodile on the quarter ensures a signature touch."
+      },
+      {
+        "id": 40,
+        "brand": "Converse",
+        "gender": "Men",
+        "name": "Converse Star Player 76 Seasonal Colour Low Top",
+        "price_nzd": 155,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 30,
+        "material": "Canvas",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.1,
+        "images": [
+          "./Images/Men/CVM3-1.jpg",
+          "./Images/Men/CVM3-2.jpg",
+          "./Images/Men/CVM3-3.jpg"
+        ],
+        "description": "The Star Player 76 is a gem from the archive that's rooted in sport and reborn for the streets. Now it arrives in its original colours to nod to its legacy and give you a style that's ready to shine again."
+      },
+      {
+        "id": 41,
+        "brand": "Nike",
+        "gender": "Men",
+        "name": "Nike Tuned 1",
+        "price_nzd": 270,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 95,
+        "material": "Synthetic",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.7,
+        "images": [
+          "./Images/Men/NikeM3-1.jpg",
+          "./Images/Men/NikeM3-2.jpg",
+          "./Images/Men/NikeM3-3.jpg"
+        ],
+        "description": "Let your attitude have the edge with flame-like caging that adds heat to the streets while airy mesh keeps you cool. The Nike Air Max Plus gives you a tuned Nike Air experience that offers premium stability and unbelievable cushioning."
+      },
+      {
+        "id": 42,
+        "brand": "Reebok",
+        "gender": "Men",
+        "name": "Reebok Club C 85",
+        "price_nzd": 155,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 70,
+        "material": "Synthetic",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.4,
+        "images": [
+          "./Images/Men/RBKM1-1.jpg",
+          "./Images/Men/RBKM1-2.jpg",
+          "./Images/Men/RBKM1-3.jpg"
+        ],
+        "description": "Smooth is how you roll. Now, you have the kicks to match. Slip on these Club C 85 sneakers and hit the scene. A simple style means these supple leather shoes pair up with anything. Because sometimes you don't have to say anything to make a statement."
+      },
+      {
+        "id": 43,
+        "brand": "New Balance",
+        "gender": "Men",
+        "name":"New Balance ML725V1",
+        "price_nzd": 200,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 55,
+        "material": "Synthetic",
+        "heel_size": "Chunky",
+        "cut": "Lo-cut",
+        "rating": 4.5,
+        "images": [
+          "./Images/Men/NBM2-1.jpg",
+          "./Images/Men/NBM2-2.jpg",
+          "./Images/Men/NBM2-3.jpg"
+        ],
+        "description": "With a classic 2000s-inspired design, this running shoe is built to keep up with your active lifestyle."
+      },
+      {
+        "id": 44,
+        "brand": "Asics",
+        "gender": "Men",
+        "name": "Asics Japan S",
+        "price_nzd": 140,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 80,
+        "material": "Leather",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.2,
+        "images": [
+          "./Images/Men/AsicsM3-1.jpg",
+          "./Images/Men/AsicsM3-2.jpg",
+          "./Images/Men/AsicsM3-3.jpg"
+        ],
+        "description": "The JAPAN S shoes are based on one of our throwback offerings from 1981. This reworked iteration is formed with a low-top silhouette that's complete with a court-inspired toe box and throwback colorways."
+      },
+      {
+        "id": 45,
+        "brand": "Adidas",
+        "gender": "Men",
+        "name": "adidas Superstar",
+        "price_nzd": 180,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 65,
+        "material": "Leather",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.8,
+        "images": [
+          "./Images/Men/Superstar_Shoes_White_GY0025_01_standard.avif",
+          "./Images/Men/Superstar_Shoes_White_GY0025_02_standard_hover.avif",
+          "./Images/Men/Superstar_Shoes_White_GY0025_03_standard.avif"
+        ],
+        "description": "MVP style with minimal effort. After 50 years of trendsetting and adoration by athletes and fashionistas alike, the adidas Superstar Shoes remain effortlessly cool and consistent today. This version of the iconic trainer features an allover micro Trefoil print that adds a luxe feel to any look. Inspired by youth culture and always embodying upbeat energy, these kicks are sure to add a little spark to your step."
+      },
+      {
+        "id": 46,
+        "brand": "Lacoste",
+        "gender": "Men",
+        "name": "Lacoste Lineshot",
+        "price_nzd": 160,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 40,
+        "material": "Leather",
+        "heel_size": "Chunky",
+        "cut": "Lo-cut",
+        "rating": 4.5,
+        "images": [
+          "./Images/Men/LacosteM3-1.jpg",
+          "./Images/Men/LacosteM3-2.jpg",
+          "./Images/Men/LacosteM3-3.jpg"
+        ],
+        "description": "The Lineshot is inspired by Lacoste's archive from the '90s. This low-top style is made using mesh details for breathability and an Ortholite footbed to ensure extra comfort. Complete with branding throughout, this style lends casual looks a signature finish every time."
+      },
+      {
+        "id": 47,
+        "brand": "Vans",
+        "gender": "Men",
+        "name": "Vans Knu Skool",
+        "price_nzd": 170,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 35,
+        "material": "Leather",
+        "heel_size": "Flat",
+        "cut": "Lo-cut",
+        "rating": 4.3,
+        "images": [
+          "./Images/Men/VansM1-1.jpg",
+          "./Images/Men/VansM1-2.jpg",
+          "./Images/Men/VansM1-3.jpg"
+        ],
+        "description": "A Puffy 90s Style Inspired by the Past, But Built for Today The Knu Skool is a modern interpretation of a classic 90s style, defined by its puffed up tongue and 3D-molded Sidestripe, and tied off with oversized, chunky laces. With its in-your-face profile and dramatic style details, the Knu Skool Leather plays off of the original Old Skool while blending an icon of the past with today’s trends."
+      },
+      {
+        "id": 48,
+        "brand": "Vans",
+        "gender": "Men",
+        "name": "Vans Premium Athletic 44",
+        "price_nzd": 210,
+        "size_range": ["8", "9", "10", "11", "12", "13"],
+        "stock_levels": 95,
+        "material": "Canvas",
+        "heel_size": "Chunky",
+        "cut": "Lo-cut",
+        "rating": 4.7,
+        "images": [
+          "./Images/Men/VansM3-1.jpg",
+          "./Images/Men/VansM3-2.jpg",
+          "./Images/Men/VansM3-3.jpg"
+        ],
+        "description": "Style 44 was enthusiastically adopted by skaters in the ’70s who noticed the legendary durability of its iconic patterned outsole. Due to its unique thickness, the sole lasted longer and its patterned design provided grip for greater board control. The Authentic Reissue 44 reintroduces the heel strip stitch found on the handcrafted archival designs and higher glossed sidewalls."
+    },
+    {
+      "id": 49,
+      "brand": "Vans",
+      "gender": "Men",
+      "name": "Vans Lowland Comfycush",
+      "price_nzd": 170,
+      "size_range": ["8", "9", "10", "11", "12", "13"],
+      "stock_levels": 35,
+      "material": "Leather",
+      "heel_size": "Flat",
+      "cut": "Lo-cut",
+      "rating": 4.3,
+      "images": [
+        "./Images/Men/VansM2-1.jpg",
+        "./Images/Men/VansM2-2.jpg",
+        "./Images/Men/VansM2-3.jpg"
+      ],
+      "description": "The Lowland ComfyCush is an archival 80s Vans silhouette with a slim profile and a ComfyCush footbed and outsole unit for modernized comfort. Originally designed for tennis in the early 80s when Vans was experimenting with athletic-focused footwear, this low-top style maintains a familiar look while adding the excitement of our heritage “Flying V” Vans logo."
+    },
+    {
+      "id": 50,
+      "brand": "Vans",
+      "gender": "Men",
+      "name": "Vans Premium Slip-On 98",
+      "price_nzd": 210,
+      "size_range": ["8", "9", "10", "11", "12", "13"],
+      "stock_levels": 35,
+      "material": "Canvas",
+      "heel_size": "Flat",
+      "cut": "Lo-cut",
+      "rating": 4.3,
+      "images": [
+        "./Images/Men/VansM4-1.jpg",
+        "./Images/Men/VansM4-2.jpg",
+        "./Images/Men/VansM4-3.jpg"
+      ],
+      "description": "Immediately upon its release in 1979, Style 98 was embraced by BMX riders and skaters, particularly in Southern California. Its status as a symbol of rebellion, independence and youth was solidified in the years following, as it became a footwear staple in fashion, music and film. The Slip-On Reissue 98 reintroduces original style details like a shorter vamp, lower collar around the ankle, higher collar above the heel, and a higher glossed sidewall."
+    },
+    {
+      "id": 51,
+      "brand": "Adidas",
+      "gender": "Boys",
+      "name": "Adidas Tensaur Sport Training Lace",
+      "price_nzd": 80,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Synthetic",
+      "heel_size": "Flat",
+      "cut": "Lo-cut",
+      "rating": 4.3,
+      "images": [
+        "./Images/Boys/Tensaur_Sport_Training_Lace_Shoes_White_GW6422_01_standard.avif",
+        "./Images/Boys/Tensaur_Sport_Training_Lace_Shoes_White_GW6422_02_standard_hover.avif",
+        "./Images/Boys/Tensaur_Sport_Training_Lace_Shoes_White_GW6422_03_standard.avif"
+      ],
+      "description": "Kids who are learning new skills need shoes that move with them. These classic adidas trainers have a rubber outsole that feels smooth for running but won't mark wood floors. So they'll work just as well for school as for sports practice."
+    },
+    {
+      "id": 52,
+      "brand": "Adidas",
+      "gender": "Boys",
+      "name": "Adidas Breaknet",
+      "price_nzd": 80,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Synthetic",
+      "heel_size": "Flat",
+      "cut": "Lo-cut",
+      "rating": 4.3,
+      "images": [
+        "./Images/Boys/Breaknet_Shoes_White_FY9504_01_standard.avif",
+        "./Images/Boys/Breaknet_Shoes_White_FY9504_02_standard_hover.avif",
+        "./Images/Boys/Breaknet_Shoes_White_FY9504_03_standard.avif"
+      ],
+      "description": "These kids' adidas shoes have a crisp look that goes with it all, from school uniforms to the latest streetwear. Your kid will move through their day with confidence. The rubber outsole gives those classic tennis-inspired vibes while the cushy sockliner delivers big-time comfort."
+    },
+    {
+      "id": 53,
+      "brand": "Adidas",
+      "gender": "Boys",
+      "name": "Adidas Stan Smith",
+      "price_nzd": 120,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Synthetic",
+      "heel_size": "Flat",
+      "cut": "Lo-cut",
+      "rating": 4.3,
+      "images": [
+        "./Images/Boys/Stan_Smith_Shoes_White_FX7534_01_standard.avif",
+        "./Images/Boys/Stan_Smith_Shoes_White_FX7534_02_standard_hover.avif",
+        "./Images/Boys/Stan_Smith_Shoes_White_FX7534_03_standard.avif"
+      ],
+      "description": "Childhood is full of firsts. First steps. First day of school. First lost tooth. And now, first Stan Smiths. These kids' shoes are part of another first, too: adidas' first big steps towards reducing waste using recycled materials. Simple straps let them put this pair on all by themselves, even if their first perfect bow is still somewhere ahead of them."
+    },
+    {
+      "id": 54,
+      "brand": "Reebok",
+      "gender": "Boys",
+      "name": "Reebok BB4000 II Mid",
+      "price_nzd": 100,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Leather",
+      "heel_size": "Flat",
+      "cut": "Hi-top",
+      "rating": 4.3,
+      "images": [
+        "./Images/Boys/Reebok B1-1.webp",
+        "./Images/Boys/Reebok B1-2.webp",
+        "./Images/Boys/Reebok B1-3.webp"
+      ],
+      "description": "Your kid can rock a classic B-ball look in these Reebok shoes. A leather upper with suede accents and a classic mid-cut silhouette look fresh on the playground or in the park."
+    },
+    {
+      "id": 55,
+      "brand": "Reebok",
+      "gender": "Boys",
+      "name": "Reebok ATR Chill",
+      "price_nzd": 100,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Leather",
+      "heel_size": "Chunky",
+      "cut": "Lo-cut",
+      "rating": 4.3,
+      "images": [
+        "./Images/Boys/Reebok B2-1.webp",
+        "./Images/Boys/Reebok B2-2.webp",
+        "./Images/Boys/Reebok B2-3.webp"
+      ],
+      "description": "Inspired by Reebok's Above the Rim basketball heritage, these juniors' ATR Chill Shoes reimagine a classic court silhouette. A leather and synthetic upper and rubber midsole and outsole keep your hardwood style on point."
+    },
+    {
+      "id": 56,
+      "brand": "Reebok",
+      "gender": "Boys",
+      "name": "Reebok Club C",
+      "price_nzd": 85,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Leather",
+      "heel_size": "Flat",
+      "cut": "Lo-cut",
+      "rating": 4.3,
+      "images": [
+        "./Images/Boys/Reebok B3-1.webp",
+        "./Images/Boys/Reebok B3-1.webp",
+        "./Images/Boys/Reebok B3-1.webp"
+      ],
+      "description": "You really can't argue with a classic. And they don't get much more classic or classier than these Reebok shoes. A soft leather upper makes them comfy for the park and the playground. Pops of color give them extra style points."
+    },
+    {
+      "id": 57,
+      "brand": "Nike",
+      "gender": "Boys",
+      "name": "Nike Kids Court Borough Low Recraft",
+      "price_nzd": 75,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Leather",
+      "heel_size": "Flat",
+      "cut": "Lo-cut",
+      "rating": 4.3,
+      "images": [
+        "./Images/Boys/Nike B1-1.webp",
+        "./Images/Boys/Nike B1-2.webp",
+        "./Images/Boys/Nike B1-3.webp"
+      ],
+      "description": "Run (don't walk) to your new favorite Borough. Made for the long haul, this recrafted legend uses a combination of durable materials on the upper and outsole to achieve a classic look made in a whole new way. A redesigned toe box and midfoot give your feet a little extra room so you can run, jump and play just a bit longer and a little bit harder."
+    },
+    {
+      "id": 58,
+      "brand": "Asics",
+      "gender": "Boys",
+      "name": "Asics Japan S GS",
+      "price_nzd": 110,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Synthetic",
+      "heel_size": "Flat",
+      "cut": "Lo-cut",
+      "rating": 4.3,
+      "images": [
+        "./Images/Boys/japan-s-gs.jpg",
+        "./Images/Boys/japan-s-gs 2.jpg",
+        "./Images/Boys/japan-s-gs 3.jpg"
+      ],
+      "description": "The JAPAN S™ shoes originally made their debut in 1981. Now they're back and available in kids' sizing as the JAPAN S™ GS (Grade School) model. This reworked iteration is formed with a low-top silhouette that's complete with a court-inspired toe box and throwback colourways."
+    },
+    {
+      "id": 59,
+      "brand": "New Balance",
+      "gender": "Boys",
+      "name": "New Balance 550",
+      "price_nzd": 150,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Synthetic",
+      "heel_size": "Flat",
+      "cut": "Lo-cut",
+      "rating": 4.3,
+      "images": [
+        "./Images/Boys/NB B1-1.webp",
+        "./Images/Boys/NB B1-2.webp",
+        "./Images/Boys/NB B1-3.webp"
+      ],
+      "description": "Dress up growing feet in the classic 550 for kids. The original 550 debuted in 1989 and made its mark on basketball courts from coast to coast. After its initial run, the 550 was filed away in the archives, before being reintroduced in limited-edition releases in late 2020, and returned to the full-time lineup in 2021, quickly becoming a global fashion favorite. The 550's low top, streamlined silhouette offers a clean take on the heavy-duty designs of the late ‘80s, while the dependable leather and synthetic upper construction is a classic look in any era."
+    },
+    {
+      "id": 60,
+      "brand": "Converse",
+      "gender": "Boys",
+      "name": "Pro Blaze Strap Junior High Top",
+      "price_nzd": 80,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Leather",
+      "heel_size": "Flat",
+      "cut": "Hi-top",
+      "rating": 4.3,
+      "images": [
+        "./Images/Boys/CV B1-1.webp",
+        "./Images/Boys/CV B1-2.webp",
+        "./Images/Boys/CV B1-3.webp"
+      ],
+      "description": "The Pro Blaze gives your style game a competitive edge—with colours inspired by home team jerseys. The iconic strap makes it easy to find the right fit, so you can get out there and play. Get your whole squad in a pair for wins all around."
+    },
+    {
+      "id": 61,
+      "brand": "Adidas",
+      "gender": "Girls",
+      "name": "Adidas Samba OG Kids",
+      "price_nzd": 110,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Leather",
+      "heel_size": "Flat",
+      "cut": "Lo-cut",
+      "rating": 4.3,
+      "images": [
+        "./Images/Girls/Samba_OG_Shoes_Kids_White_JI4465_01_standard.avif",
+        "./Images/Girls/Samba_OG_Shoes_Kids_White_IE1334_02_standard_hover.avif",
+        "./Images/Girls/Samba_OG_Shoes_Kids_White_IE1334_03_standard.avif"
+      ],
+      "description": "If you time travelled back to the 1960s, you'd find pro soccer players wearing adidas Sambas just like these kids' shoes. Well, almost just like them. Refreshed for the next generation, they feature a soft sockliner that feels comfortable through all-day play. A leather upper, gum rubber sole and 3-Stripes stay classic."
+    },
+    {
+      "id": 62,
+      "brand": "Adidas",
+      "gender": "Girls",
+      "name": "Adidas Grand Court 2.0",
+      "price_nzd": 70,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Synthetic",
+      "heel_size": "Flat",
+      "cut": "Lo-cut",
+      "rating": 4.3,
+      "images": [
+        "./Images/Girls/Grand_Court_2.0_Shoes_Kids_White_IE5996_01_standard.avif",
+        "./Images/Girls/Grand_Court_2.0_Shoes_Kids_White_IE5996_02_standard_hover.avif",
+        "./Images/Girls/Grand_Court_2.0_Shoes_Kids_White_IE5996_03_standard.avif"
+      ],
+      "description": "Hopping on a bike or heading to a party, these kids' adidas sneakers keep kids moving in classic, sporty style. The faux leather upper is lined for a soft feel and finished with the iconic 3-Stripes at the sides. A flexible rubber cupsole provides much-needed grip for on-the-go kids."
+    },
+    {
+      "id": 63,
+      "brand": "Adidas",
+      "gender": "Girls",
+      "name": "Adidas Stan Smith",
+      "price_nzd": 140,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Synthetic",
+      "heel_size": "Flat",
+      "cut": "Lo-cut",
+      "rating": 4.3,
+      "images": [
+        "./Images/Girls/Stan_Smith_Shoes_White_FX7522_01_standard.avif",
+        "./Images/Girls/Stan_Smith_Shoes_White_FX7522_02_standard_hover.avif",
+        "./Images/Girls/Stan_Smith_Shoes_White_FX7522_03_standard.avif"
+      ],
+      "description": "Every generation has made the Stan Smith their own. Now, it's your turn. These juniors' shoes have the same clean look and crisp feel as the original. What's different? The materials. Recycled components are part of adidas' commitment to reduce waste. Time to lace in and start a brand-new story."
+    },
+    {
+      "id": 64,
+      "brand": "Reebok",
+      "gender": "Girls",
+      "name": "Reebok Classic Leather",
+      "price_nzd": 90,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Leather",
+      "heel_size": "Flat",
+      "cut": "Lo-cut",
+      "rating": 4.3,
+      "images": [
+        "./Images/Girls/Reebok G1-1.webp",
+        "./Images/Girls/Reebok G1-2.webp",
+        "./Images/Girls/Reebok G1-3.webp"
+      ],
+      "description": "Clean kicks for your littlest OG. Start kids off right with these Classic Leather Shoes. Their old-school Reebok style stands out in the backyard or the playground. Soft leather on the upper lets kids play all day in total comfort. A hook-and-loop strap makes quick changes fast and easy."
+    },
+    {
+      "id": 65,
+      "brand": "Reebok",
+      "gender": "Girls",
+      "name": "Reebok Royal CL Jog 3.0",
+      "price_nzd": 85,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Synthetic",
+      "heel_size": "Flat",
+      "cut": "Lo-cut",
+      "rating": 4.3,
+      "images": [
+        "./Images/Girls/Reebok G2-1.webp",
+        "./Images/Girls/Reebok G2-2.webp",
+        "./Images/Girls/Reebok G2-3.webp"
+      ],
+      "description": "Reebok Summer Glow 3.0 in girl's sizes is a convenient runner that'll keep up with her boisterous play."
+    },
+    {
+      "id": 66,
+      "brand": "Reebok",
+      "gender": "Girls",
+      "name": "Reebok Club C Revenge",
+      "price_nzd": 105,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Leather",
+      "heel_size": "Flat",
+      "cut": "Lo-cut",
+      "rating": 4.3,
+      "images": [
+        "./Images/Girls/Reebok G3-1.webp",
+        "./Images/Girls/Reebok G3-2.webp",
+        "./Images/Girls/Reebok G3-3.webp"
+      ],
+      "description": "Make a bold statement with the Club C Revenge sneakers in a vibrant white, porcelain pink, and pink glow colorway. These iconic shoes feature a classic silhouette with a modern twist, making them perfect for everyday wear. With their cushioned sole and durable construction, they provide both style and comfort all day long."
+    },
+    {
+      "id": 67,
+      "brand": "Nike",
+      "gender": "Girls",
+      "name": "Nike Kids Court Borough Low Recraft",
+      "price_nzd": 100,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Synthetic",
+      "heel_size": "Flat",
+      "cut": "Lo-cut",
+      "rating": 4.3,
+      "images": [
+        "./Images/Girls/Nike G1-1.webp",
+        "./Images/Girls/Nike G1-2.webp",
+        "./Images/Girls/Nike G1-3.webp"
+      ],
+      "description": "Run (don't walk) to your new favourite Borough. Made for the long haul, this recrafted legend uses a combination of durable materials on the upper and outsole to achieve a classic look made in a whole new way. A redesigned toe box and midfoot give your feet a little extra room so you can run, jump and play just a bit longer and a little bit harder."
+    },
+    {
+      "id": 68,
+      "brand": "Converse",
+      "gender": "Girls",
+      "name": "Converse CT All Star Sparkle High Top",
+      "price_nzd": 60,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Canvas",
+      "heel_size": "Flat",
+      "cut": "Hi-top",
+      "rating": 4.3,
+      "images": [
+        "./Images/Girls/CV G1-1.webp",
+        "./Images/Girls/CV G1-2.webp",
+        "./Images/Girls/CV G1-3.webp"
+      ],
+      "description": "Let your mini shine from the inside out. Help them wow the crowd in lightweight Chucks, with fun pops of pink and sparkles. Plus, a heart-shaped eyelet adds to the charm, for a shoe they'll love to put on—and show off."
+    },
+    {
+      "id": 69,
+      "brand": "Nike",
+      "gender": "Girls",
+      "name": "Air Max SC",
+      "price_nzd": 70,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Leather",
+      "heel_size": "Flat",
+      "cut": "Lo-cut",
+      "rating": 4.3,
+      "images": [
+        "./Images/Girls/Nike G2-1.webp",
+        "./Images/Girls/Nike G2-2.webp",
+        "./Images/Girls/Nike G2-3.webp"
+      ],
+      "description": "Simple, comfortable and cushioned with Air—the Nike Air Max SC is an easy yes. The mixture of textures creates a durable and lightweight design you can rock all day, any day."
+    },
+    {
+      "id": 70,
+      "brand": "Converse",
+      "gender": "Girls",
+      "name": "Converse Chuck Taylor All Star Easy On 1V High Top",
+      "price_nzd": 130,
+      "size_range": ["1", "2", "3", "4", "5", "6", "7"],
+      "stock_levels": 35,
+      "material": "Canvas",
+      "heel_size": "Flat",
+      "cut": "Hi-top",
+      "rating": 4.3,
+      "images": [
+        "./Images/Girls/CV G2-1.webp",
+        "./Images/Girls/CV G2-2.webp",
+        "./Images/Girls/CV G2-3.webp"
+      ],
+      "description": "The high-top court favorite gets redesigned for kids, with a cushioned SmartFOAM sockliner, plus softened stitches and linings. One hook-and-loop strap and elastic laces allow for easy on and off, securing the fit of the classic canvas upper. The look is finished with Chuck Taylor All Star standbys, like a star ankle patch, diamond pattern toe bumper, and midsole stripes."
+    }
+    ]
+  }
+  
