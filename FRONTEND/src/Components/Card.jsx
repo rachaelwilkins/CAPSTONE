@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
 export default function SneakerCard(props) {
+  console.log(props.id)
   return (
     <Card sx={{ maxWidth: 345 }} style={{backgroundColor: "white"}}>
       <CardActionArea sx={{ maxWidth: 345, minHeight: 400 }} style={{backgroundColor: "white"}} >

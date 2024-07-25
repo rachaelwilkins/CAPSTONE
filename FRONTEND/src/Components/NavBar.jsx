@@ -32,9 +32,9 @@ export default function ButtonAppBar() {
             <NavLink id="link" to="/girls">girls.</NavLink>
             <NavLink id="link" to="/brands">brands.</NavLink>
             <NavLink id="link" to="/about">about.</NavLink>
-            <NavLink id="link" to="/wishlist"><FaHeart/></NavLink>
-            <NavLink id="link" to="/cart"><FaCartShopping/></NavLink>
             <NavLink id="link" to="/login"><IoPerson/></NavLink>
+            <NavLink id="link" to="/wishlist"><FaHeart/></NavLink>
+            <NavLink id="link" to="/cart"><FaCartShopping/></NavLink>           
           </Typography>   
         </Toolbar>
       </AppBar>

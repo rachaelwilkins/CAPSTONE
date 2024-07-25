@@ -22,7 +22,7 @@ import SneakerCard from "../Components/Card";
 
       <Grid container spacing={4}>
             {girlShoeList?.map((product, index) => (
-              <Grid item key={index} xs={12} sm={6} md={4}> 
+              <Grid item key={index} xs={12} sm={6} md={4} lg={3}> 
               <SneakerCard name={product.name} price={product.price_nzd} image={product.images}/>
               </Grid>               
             ))}

@@ -6,16 +6,25 @@ export default function SneakerDetails() {
     const params=useParams ()
     const shoeID=params.id 
     const [shoe, setShoe] = useState(null);
+
+    function addSneakertoCart() {
+      setSneakersInCart(prev => [...prev, id]);
+    }    
+
+    function addSneakertoWish() {
+      setSneakersInWish(prev => [...prev, id]);
+    } 
+
     useEffect(() => {
       axios.get(
 
         `http://localhost:3000/sneakers`
   
       ).then((response) => {
+        const filteredArray = response.data.filter((shoe) => shoe.id === shoeID)
+        console.log(filteredArray);
   
-        console.log(response.data[shoeID-1]);
-  
-        setShoe(response.data[shoeID-1]);
+        setShoe(filteredArray[0]);
   
       })
     }, []) 
@@ -28,9 +37,17 @@ export default function SneakerDetails() {
             <h6>material: {shoe?.material}</h6>
             <h6>cut: {shoe?.cut}</h6>
             <h6>heel: {shoe?.heel_size}</h6>
-            <h6>rating:</h6>
             <h6>size:</h6>
-            <button class="button"><a href="/cart" color='black'>add to cart.</a></button>
+            <button
+              type="submit"
+              onClick={addSneakertoCart}>
+              add to cart.
+            </button>
+            <button
+              type="submit"
+              onClick={addSneakertoWish}>
+              add to wishlist.
+            </button>
     </div>
   )
 }

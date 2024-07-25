@@ -15,14 +15,54 @@ import '../App.css';
 
 
 export default function SignIn() {
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    console.log({
-      email: data.get('email'),
-      password: data.get('password'),
-    });
-  };
+  const handleSubmit=(event)=>
+    {
+      event.preventDefault()
+      let matchedUserName=false
+        for (let u of users)
+        {
+          console.log(u, "Username")
+          if (LUserName===u?.UserName)
+          {
+            console.log(u, "password verification")
+            matchedUserName=true
+            if (LPassWord===u?.Password)
+            {
+              console.log(u?.UserName, u?.Password, u?._id)
+              setUser(u)
+              console.log(u)
+              navigate('/');
+            }
+
+            else
+
+            {
+
+                alert('Incorrect password, please try again.');
+
+            }
+
+          }
+
+        }
+
+        if (!matchedUserName)
+
+        {
+
+          alert('Incorrect username, please register first.');
+
+        }
+
+    }
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  //   const data = new FormData(event.currentTarget);
+  //   console.log({
+  //     email: data.get('email'),
+  //     password: data.get('password'),
+  //   });
+  // };
 
   return (
       <Container component="main" maxWidth="xs">

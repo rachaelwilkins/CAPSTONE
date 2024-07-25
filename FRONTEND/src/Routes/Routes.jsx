@@ -11,6 +11,7 @@ import HomePage from '../Pages/Home';
 import SignIn from '../Pages/SignIn';
 import AboutPage from '../Pages/About';
 import SignUp from '../Pages/SignUp';
+import Checkout from '../Pages/Cart';
 
 function AppRoutes() {
   return (
@@ -26,6 +27,7 @@ function AppRoutes() {
       <Route exact path="/about" element={<AboutPage/>} />
       <Route exact path="/login" element={<Theme><LogInPage/></Theme>} />
       <Route exact path="/signup" element={<Theme><SignUp/></Theme>} />
+      <Route exact path="/cart" element={<Theme><Checkout/></Theme>} />
       <Route exact index element={<Theme><HomePage/></Theme>} />
     </Routes>
     </div>

@@ -34,7 +34,7 @@ import video from '../Components/Videos/boysvid.mp4'
       // }
       <Grid container spacing={4}>          
             {boyShoeList?.map((product, index) => (
-              <Grid item key={index} xs={12} sm={6} md={4}> 
+              <Grid item key={index} xs={12} sm={6} md={4} lg={3}>
               <SneakerCard name={product.name} price={product.price_nzd} image={product.images} id={product.id}/>
               </Grid>               
             ))}
