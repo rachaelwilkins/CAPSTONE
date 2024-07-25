@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { Card, CardMedia, Grid } from "@mui/material";
+import { Box, Card, CardMedia, Grid } from "@mui/material";
 import SneakerCard from "../Components/Card";
 import video from "../Components/Videos/womenvid.mp4"
 
@@ -22,11 +22,7 @@ import video from "../Components/Videos/womenvid.mp4"
     }, []) 
     return (
       <>
-            {/* <div className="App">
-            <video width="750" height="500" controls autoPlay>
-            <source src={video} type="video/mp4"/>
-           </video>
-            </div> */}
+
             <Card >
 
 <CardMedia
@@ -35,7 +31,14 @@ import video from "../Components/Videos/womenvid.mp4"
   allow="autoPlay"
   src={video}
 /></Card>
-
+  <Box
+      sx={{
+          bgcolor: 'background.paper',
+          my: 10,
+          mx: 0,
+          ml: 5
+      }}
+      >  
       <Grid container spacing={4}>
             {womenShoeList?.map((product, index) => (
               <Grid item key={index} xs={12} sm={6} md={4} lg={3}>
@@ -43,6 +46,7 @@ import video from "../Components/Videos/womenvid.mp4"
               </Grid>               
             ))}
        </Grid>
+       </Box>
        </>
     )
   }

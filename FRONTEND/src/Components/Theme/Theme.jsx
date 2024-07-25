@@ -22,13 +22,12 @@ export default function Theme(props) {
       <main>
         {/* Hero unit */}
         <Box
-                sx={{
-                    bgcolor: 'background.paper',
-                    pt: 0,
-                    pb: 0,
-                    mt: 0,
-                }}
-                >
+               sx={{
+                   bgcolor: 'background.paper',
+                   my: 5,
+                   mx: -7
+               }}
+               >
                     <Container maxWidth="m">
                         <Typography
                         component="h1"

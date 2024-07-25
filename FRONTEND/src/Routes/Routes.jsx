@@ -24,7 +24,7 @@ function AppRoutes() {
       <Route exact path="/women" element={<WomensSneakers/>} />
       <Route exact path="/boys" element={<BoysSneakers/>} />
       <Route exact path="/girls" element={<GirlsSneakers/>} />
-      <Route exact path="/about" element={<AboutPage/>} />
+      <Route exact path="/about" element={<Theme><AboutPage/></Theme>} />
       <Route exact path="/login" element={<Theme><LogInPage/></Theme>} />
       <Route exact path="/signup" element={<Theme><SignUp/></Theme>} />
       <Route exact path="/cart" element={<Theme><Checkout/></Theme>} />

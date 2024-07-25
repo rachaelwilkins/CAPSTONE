@@ -38,23 +38,27 @@
  }
 
  .aboutPage {
-  color: white;
+  color: black;
   background-image: url(./Components/ImagesLogos/BackgroundImages/aboutpage.png);
+  text-align: left;
+  padding-left: 20px;
   font-size: xx-large;
   background-repeat: no-repeat;
   z-index: -999999;
-  top: 0px;
   background-attachment: fixed;
   background-size: cover;
   min-height: 90vh;
-  width: 145%;
-  top: 50px;
+  width: 127%;
+ }
+
+ h1 {
+  text-align: center;
  }
 
  .button {
-  background-color: grey;
+  background-color: transparent;
   border: solid;
-  color: black
+  color: #EFEEEC;
 }
 
 #link {

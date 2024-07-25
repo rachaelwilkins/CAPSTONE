@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { Grid } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import SneakerCard from "../Components/Card";
 import video from "../Components/Videos/menvid.mp4"
 
@@ -20,7 +20,14 @@ import video from "../Components/Videos/menvid.mp4"
       })
     }, []) 
     return (
-      
+      <Box
+      sx={{
+          bgcolor: 'background.paper',
+          my: 10,
+          mx: 0,
+          ml: 5
+      }}
+      >  
       <Grid container spacing={4}>
             {menShoeList?.map((product, index) => (
               <Grid item key={index} xs={12} sm={6} md={4} lg={3}> 
@@ -28,6 +35,7 @@ import video from "../Components/Videos/menvid.mp4"
               </Grid>               
             ))}
        </Grid>
+       </Box>
     )
   }
   
