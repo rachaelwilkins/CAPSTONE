@@ -15,6 +15,7 @@ import '../App.css';
 import { useData } from '../Hooks/useData';
 import { useNavigate } from 'react-router-dom';
 import { useUserContext } from '../Context/SneakerContext';
+import image from '../Components/ImagesLogos/BackgroundImages/Bimage5.png'
 
 export default function SignIn() {
   const{user, setUser} = useUserContext()
@@ -24,6 +25,7 @@ export default function SignIn() {
   const [users, setUsers] = useState('')
   const [validateMsg, setValidateMsg] = useState(null)
   let navigate = useNavigate();
+
 
   //get the users
 
@@ -59,35 +61,27 @@ export default function SignIn() {
           alert('unknown email - please register first.');
         }
     }
-  // const handleSubmit = (event) => {
-  //   event.preventDefault();
-  //   const data = new FormData(event.currentTarget);
-  //   console.log({
-  //     email: data.get('email'),
-  //     password: data.get('password'),
-  //   });
-  // };
 
   return (
+    
       <Container component="main" maxWidth="xs">
-        <CssBaseline />
+        <CssBaseline 
+        />
         <Box
           sx={{
             marginTop: 10,
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            position: 'centre',
+            position: 'center',
             color: 'black',
             fontFamily: 'League Spartan',
-                    }}
-        >
+            }}
+            >
           <Avatar sx={{ m: 1, bgcolor: 'black' }}>
             <LockOutlinedIcon />
           </Avatar>
-          <Typography component="h1" variant="h5" fontFamily={"League Spartan"} color={"black"}>
             sign in to sneakerhub. 
-          </Typography>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }} fontFamily={"League Spartan"}>
             <TextField
               margin="normal"
@@ -112,17 +106,15 @@ export default function SignIn() {
               onChange={e=>setLPassWord(e.target.value)}
             />
             <FormControlLabel
-              control={<Checkbox value="remember" color="secondary" />}
+              control={<Checkbox value="remember" color="secondary" fontFamily={"League Spartan"} />}
               label="remember me."
             />
-            <Button
+            <button class="button"
               type="submit"
-              fullWidth
-              variant="contained"
-              sx={{ mt: 3, mb: 2, fontFamily: "League Spartan" }}
+              
             >
               sign in.
-            </Button>
+              </button>
             <Grid container>
               <Grid item xs>
                 <Link href="#" variant="body2" color="primary" fontFamily={"League Spartan"} >

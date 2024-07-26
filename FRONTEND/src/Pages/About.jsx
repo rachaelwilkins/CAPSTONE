@@ -30,9 +30,6 @@ export default function AboutPage() {
              <CiLocationOn /> 123 shoe street, north shore city, auckland 1010<br></br>
              <IoIosPhonePortrait /> 0800 123 456<br></br>
              <MdOutlineMail /> hello@whitesneakerhub.com
-
-
-
              </h6>
         </div>
       );

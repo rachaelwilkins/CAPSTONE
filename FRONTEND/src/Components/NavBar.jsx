@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import '../App.css';
 import Favicon from '../Favicons/favicon.ico'
 import { FaCartShopping } from "react-icons/fa6";
@@ -14,9 +14,10 @@ import { useUserContext } from '../Context/SneakerContext';
 
 export default function ButtonAppBar() {
 const{user, setUser} = useUserContext()
+const navigate=useNavigate()
   return (
       <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="fixed" sx={{backgroundColor: 'transparent', zIndex: 5}}>
+      <AppBar position="fixed" sx={{backgroundColor: 'transparent', zIndex: 5,}}>
         <Toolbar>
           <IconButton
             size="large"
@@ -24,6 +25,7 @@ const{user, setUser} = useUserContext()
             color="inherit"
             aria-label="menu"
             sx={{ mr: 2 }}
+            onClick={() => navigate("/")}
           >
           <img id="favicon" src={Favicon}/>  
           </IconButton>
@@ -32,12 +34,14 @@ const{user, setUser} = useUserContext()
             <NavLink id="link" to="/women">women.</NavLink>
             <NavLink id="link" to="/boys">boys.</NavLink>
             <NavLink id="link" to="/girls">girls.</NavLink>
-            <NavLink id="link" to="/brands">brands.</NavLink>
             <NavLink id="link" to="/about">about.</NavLink>
+            <div id='icons'>
             <NavLink id="link" to="/wishlist"><FaHeart/></NavLink>
             <NavLink id="link" to="/cart"><FaCartShopping/></NavLink>   
             <NavLink id="link" to="/login"><IoPerson/></NavLink>
-            <p id="link">{user?.email}</p>        
+            <NavLink id="link" to="/profile">{user?.email}</NavLink>
+            {/* <p id="link">{user?.email}</p>         */}
+            </div>
           {/* </Typography>    */}
         </Toolbar>
       </AppBar>

@@ -22,18 +22,21 @@ export default function Theme(props) {
       <main>
         {/* Hero unit */}
         <Box
-               sx={{
-                   bgcolor: 'background.paper',
-                   my: 5,
-                   mx: -7
-               }}
-               >
+                sx={{
+                    bgcolor: 'white',
+                    my: 5,
+                    mx: -7,
+                    fontFamily: 'League Spartan',
+                }}
+                >
                     <Container maxWidth="m">
                         <Typography
                         component="h1"
                         variant="p"
                         align="center"
+                        position="center"
                         color="text.primary"
+                        fontFamily="League Spartan"
                         gutterBottom
                         >
                           {props.children}

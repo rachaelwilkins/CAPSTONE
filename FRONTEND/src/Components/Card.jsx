@@ -4,26 +4,29 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 export default function SneakerCard(props) {
-  console.log(props.id)
+  const navigate=useNavigate()
+  console.log(props.name)
   return (
-    <Card sx={{ maxWidth: 345 }} style={{backgroundColor: "white"}}>
-      <CardActionArea sx={{ maxWidth: 345, minHeight: 400, color: 'transparent' }} >
+    <Card sx={{ minHeight: 450, maxWidth: 345 }} style={{backgroundColor: "white"}}>
+      <CardActionArea sx={{ color: 'transparent' }} >
         <CardMedia
           component="img"
-          height="275"
-          image={props.image[0]}
+          height="300"
+          image={props.images[0]}
           alt="shoe"
+          justify Content="center"
         />
         <CardContent style={{backgroundColor: "white"}}>
-          <Typography gutterBottom variant="h5" fontFamily="League Spartan" >
-            {props.name}
+          <Typography gutterBottom variant="h5" fontFamily="League Spartan" color='black'>
+            {props?.name}
           </Typography>
           <Typography variant="h5" color="text.secondary" fontFamily="League Spartan">
             ${props.price} NZD
           </Typography>
-          <button class="button"><a href={"/sneakers/"+props.id} color='white'>try it on.</a></button>
+          <button class="button" onClick={() => navigate("/sneakers/"+props.id)}>try on.</button>
         </CardContent>
       </CardActionArea>
     </Card>

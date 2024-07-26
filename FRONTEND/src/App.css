@@ -33,7 +33,7 @@
   background-attachment: fixed;
   background-size: cover;
   min-height: 90vh;
-  width: 250%;
+  width: 200%;
   top: 50px;
  }
 
@@ -48,7 +48,25 @@
   background-attachment: fixed;
   background-size: cover;
   min-height: 90vh;
-  width: 127%;
+  width: 149%;
+  top: 40px;
+ }
+
+ .wishList {
+  color: black;
+  background-image: url(./Components//ImagesLogos/BackgroundImages/Bimage5.png);
+  text-align: left;
+  padding-left: 20px;
+  font-size: xx-large;
+  background-repeat: no-repeat;
+  z-index: -999999;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 90vh;
+  width: 149%;
+  top: 50px;
+  color: white;
+  
  }
 
  h1 {
@@ -58,7 +76,7 @@
  .button {
   background-color: transparent;
   border: solid;
-  color: #EFEEEC;
+  color: black; 
 }
 
 #link {
@@ -76,4 +94,10 @@
   margin-top: 10px;
   padding: 20px;
   font-size: smaller;
+}
+
+#icons {
+  left: 60%;
+  position: relative;
+  color: black;
 }

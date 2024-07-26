@@ -8,10 +8,11 @@ import GirlsSneakers from '../Pages/Girls'
 import LogInPage from '../Pages/SignIn';
 import Theme from '../Components/Theme/Theme';
 import HomePage from '../Pages/Home';
-import SignIn from '../Pages/SignIn';
 import AboutPage from '../Pages/About';
 import SignUp from '../Pages/SignUp';
 import Checkout from '../Pages/Cart';
+import Profile from '../Pages/Profile';
+import WishList from '../Pages/Wishlist';
 
 function AppRoutes() {
   return (
@@ -20,11 +21,13 @@ function AppRoutes() {
       <Route exact path="/sneakers/">
       <Route exact path=":id" element={<Theme><SneakerDetails/></Theme>} />
       </Route> 
+      <Route exact path="/profile" element={<Theme><Profile/></Theme>} />
       <Route exact path="/men" element={<MensSneakers/>} />
       <Route exact path="/women" element={<WomensSneakers/>} />
       <Route exact path="/boys" element={<BoysSneakers/>} />
       <Route exact path="/girls" element={<GirlsSneakers/>} />
       <Route exact path="/about" element={<Theme><AboutPage/></Theme>} />
+      <Route exact path="/wishlist" element={<Theme><WishList/></Theme>} />
       <Route exact path="/login" element={<Theme><LogInPage/></Theme>} />
       <Route exact path="/signup" element={<Theme><SignUp/></Theme>} />
       <Route exact path="/cart" element={<Theme><Checkout/></Theme>} />
