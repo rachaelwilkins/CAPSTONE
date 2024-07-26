@@ -9,7 +9,7 @@ const theme = createTheme({
       main: '#000000'
     },
     background: {
-      paper: '#EFF7FF', // your color
+      paper: '#EFF7FF', 
     },  
   },
 }
